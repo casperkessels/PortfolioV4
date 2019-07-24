@@ -76,36 +76,34 @@ export default ({ data }) => {
            </div>
         </section>
 
-        <section className="w-100 ph4-ns ph3 pv4 center">
+        <section className="cf w-100 h-auto ph4-ns ph3 pv4 center">
         <p className="tc f4 inria mb6">Check out some of my recent projects</p>
 
+
+        <ul className="list fl w-100 tc db pa0">
+
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <article key={node.id}>
+          <li key={node.id} className="dib mh-auto mv3">
             <Link
               to={node.fields.slug}
-              className="db pv4 ph3-ns ph0-1 no-underline black center-ns w-60-ns grow"
+              className="db no-underline black grow w6"
             >
-              <div className="flex flex-column flex-row-ns ">
-                <div className="fl w-40-ns pa2">
-                  <div className="pv2-ns bt">
-                    <h4 className="f6 inria">
-                      {node.frontmatter.tags}
-                    </h4>
-                  </div>
-                  <div className="">
-                    <h2 className="f3 fw1 mt0 lh-title inria">
-                      {node.frontmatter.title}{" "}
-                    </h2>
-
-                  </div>
+              <div className="relative w6 h6 br4 bg-white shadow-4" >
+                <div>
+                  <img className="br-top-4" src={node.frontmatter.thumbnail.childImageSharp.fluid.src} alt=""/>
                 </div>
-                <div className="fl w-60-ns pa2">
-                  <img className="db" src={node.frontmatter.thumbnail.childImageSharp.fluid.src} alt=""/>
+                <div className="mh4 mt3">
+                  <h2 className="f5 fw1 mt0 lh-title inria bold"> {node.frontmatter.title} </h2>
+                  <h4 className="f5 inria">{node.frontmatter.tags}</h4>
                 </div>
-               </div>
+              </div>
              </Link>
-          </article>
+          </li>
         ))}
+
+        </ul>
+
+
 
         </section>
         <section className="ph4-ns ph3 pv4 bg-lighter-blue inria">
