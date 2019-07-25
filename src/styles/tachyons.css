@@ -1,3 +1,41 @@
+@import "nord.css";
+
+.bg_nord0 { background-color: var(--nord0); }
+.bg_nord1 { background-color: var(--nord1); }
+.bg_nord2 { background-color: var(--nord2); }
+.bg_nord3 { background-color: var(--nord3); }
+.bg_nord4 { background-color: var(--nord4); }
+.bg_nord5 { background-color: var(--nord5); }
+.bg_nord6 { background-color: var(--nord6); }
+.bg_nord7 { background-color: var(--nord7); }
+.bg_nord8 { background-color: var(--nord8); }
+.bg_nord9 { background-color: var(--nord9); }
+.bg_nord10 { background-color: var(--nord10); }
+.bg_nord11 { background-color: var(--nord11); }
+.bg_nord12 { background-color: var(--nord12); }
+.bg_nord13 { background-color: var(--nord13); }
+.bg_nord14 { background-color: var(--nord14); }
+.bg_nord15 { background-color: var(--nord15); }
+.bg_nord16 { background-color: #fbfbfc; }
+.bg_nord17 { background-color:#f8f9fb; }
+
+.nord0 { color: var(--nord0); }
+.nord1 { color: var(--nord1); }
+.nord2 { color: var(--nord2); }
+.nord3 { color: var(--nord3); }
+.nord4 { color: var(--nord4); }
+.nord5 { color: var(--nord5); }
+.nord6 { color: var(--nord6); }
+.nord7 { color: var(--nord7); }
+.nord8 { color: var(--nord8); }
+.nord9 { color: var(--nord9); }
+.nord10 { color: var(--nord10); }
+.nord11 { color: var(--nord11); }
+.nord12 { color: var(--nord12); }
+.nord13 { color: var(--nord13); }
+.nord14 { color: var(--nord14); }
+.nord15 { color: var(--nord15); }
+
 /*! TACHYONS v4.9.1 | http://tachyons.io */
 /*
  *
@@ -825,7 +863,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .h3 { height: 4rem; }
 .h4 { height: 8rem; }
 .h5 { height: 16rem; }
-.h6 { height: 360px; }
+.h6 { height: 30rem; }
 /* Height Percentages - Based off of height of parent */
 .h-25 { height: 25%; }
 .h-50 { height: 50%; }
@@ -978,7 +1016,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .w3 { width: 4rem; }
 .w4 { width: 8rem; }
 .w5 { width: 16rem; }
-.w6 { width: 320px; }
+.w6 { width: 28rem; }
 .w-10 { width: 10%; }
 .w-20 { width: 20%; }
 .w-25 { width: 25%; }
@@ -1163,6 +1201,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-light-gray { background-color: #eee; }
 .bg-near-white { background-color: #f4f4f4; }
 .bg-white { background-color: #fff; }
+.bg-almost-white { background-color: #fafafa; }
 .bg-transparent { background-color: transparent; }
 .bg-dark-red { background-color: #e7040f; }
 .bg-red { background-color: #ff4136; }

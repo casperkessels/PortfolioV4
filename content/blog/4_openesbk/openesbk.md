@@ -3,7 +3,7 @@ title: "Open eSBK Branding"
 date: "2019-10-23"
 tags: ["UI Design, Branding"]
 subtitle: "test"
-thumbnail: ./thumbnail1.png
+thumbnail: ./Thumbnail_Open_eSBK.png
 ---
 
 Since the start of 2019, together with 5 friends, I have been involved with organising a fully electric motorcycle racing competition.

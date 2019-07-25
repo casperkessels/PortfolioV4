@@ -3,7 +3,7 @@ title: "Texture Based Haptics"
 date: "2019-11-23"
 tags: ["Human-Computer Interaction"]
 subtitle: "test"
-thumbnail: ./thumbnail.jpg
+thumbnail: ./Thumbnail_Haptics.png
 ---
 
 Fore more information, have a look at the report.
