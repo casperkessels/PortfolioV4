@@ -31,9 +31,7 @@ export default ({ data }) => {
             </div>
             <div className="w-80-l ph3 bl v-mid dib-l">
               <p className="tl b inria f5"> Hi! I am Casper!</p>
-              <p className="tl inria f5"> I am an interaction designer currently based in Amsterdam. I am passionate about solving complex problems with design and do some other stuff to fill up the emtpy space here !</p>
-              <i class="fa fa-angle-down" aria-hidden="true"></i>
-            </div>
+              <p className="tl inria f5"> I am an interaction designer currently based in Amsterdam. I am passionate about solving complex problems with design and do some other stuff to fill up the emtpy space here !</p>            </div>
           </div>
         </section>
 
@@ -79,21 +77,21 @@ export default ({ data }) => {
         <h1 className="tc f3 fw9 inria mb6 white">Check out some of my recent projects</h1>
 
 
-        <ul className="list fl w-100 tc db pa4 v-top ">
+        <ul className="list fl w-100  center tc db ph1 ph4-ns pv4 v-top ">
 
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <li key={node.id} className="dib mh-auto ma3 grow v-top">
+          <li key={node.id} className="dib mh-auto w5 w6-ns h6-ns mv3 mh3-ns grow v-top">
             <Link
               to={node.fields.slug}
               className="no-underline  nord0"
             >
-              <div className="relative w6 h6 br4 bg-white shadow-4" >
+              <div className="relative br4 bg-white pb3 shadow-4" >
                 <div>
                   <img className="br-top-4" src={node.frontmatter.thumbnail.childImageSharp.fluid.src} alt=""/>
                 </div>
-                <div className="mh4 mt3 tl">
+                <div className="mh4 mv3 tl">
                   <h2 className="f4 fw9 mt0 lh-title inria"> {node.frontmatter.title} </h2>
-                  <p className="f6 inria">{node.frontmatter.tags}</p>
+                  <p className="f6 inria ">{node.frontmatter.tags}</p>
                 </div>
               </div>
              </Link>

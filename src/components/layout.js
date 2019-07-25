@@ -17,7 +17,7 @@ export default ({ children }) => {
   )
   return (
     <div className="min-vh-100 w-100 flex flex-column inria">
-      <nav className=" dt w-100 border-box pa3 ph5-ns">
+      <nav className=" dt  absolute-ns w-100 border-box pa3 ph5-ns bg-white-10">
         <div className="db dtc-l v-mid w-100 w-75-l tc tr-l">
           <Link className="link dim dark-gray f6 f4-ns dib mr3 mr4-l" to={`/`}>
             My Work

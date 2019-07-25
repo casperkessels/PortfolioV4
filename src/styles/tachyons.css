@@ -2277,6 +2277,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .w3-ns { width: 4rem; }
  .w4-ns { width: 8rem; }
  .w5-ns { width: 16rem; }
+ .w6-ns { width: 28rem; }
  .w-10-ns { width: 10%; }
  .w-20-ns { width: 20%; }
  .w-25-ns { width: 25%; }
@@ -3123,6 +3124,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .w3-l { width: 4rem; }
  .w4-l { width: 8rem; }
  .w5-l { width: 16rem; }
+ .w6-l { width: 28rem; }
  .w-10-l { width: 10%; }
  .w-20-l { width: 20%; }
  .w-25-l { width: 25%; }
