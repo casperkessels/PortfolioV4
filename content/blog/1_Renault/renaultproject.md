@@ -1,7 +1,7 @@
 ---
 title: "Rethinking the Interactions Between People and Cars"
 date: "2019-09-01"
-tags: ["UX Design"]
+tags: ["UX Design, Research"]
 subtitle: "test"
 thumbnail: ./Thumbnail_Renault.png
 ---

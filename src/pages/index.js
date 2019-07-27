@@ -26,7 +26,7 @@ export default ({ data }) => {
       <div className="w-100">
         <section className="w-100 h-auto bg-white inria">
           <div className="db mv7 ph3 pv3 mh-auto center-l w-60-l">
-            <div className="w-30 w-20-l v-mid pv2 ph3 dib-l">
+            <div className="w-30 w-20-ns v-mid pv2 ph3 dib-l">
               <img className="br-100" src={profilepicture} alt="Profile Picture"/>
             </div>
             <div className="w-80-l ph3 bl v-mid dib-l">
@@ -97,18 +97,15 @@ export default ({ data }) => {
              </Link>
           </li>
         ))}
-
         </ul>
-
-
-
         </section>
+
         <section className="ph4-ns ph3 pv4 bg_nord17 inria">
           <div className="cf pv6 center">
             <p className="tc f3 fw9 inria mb6 nord0">Here are some of my recent articles</p>
             <div className="cf w-80 w-100-ns mb5 inline-flex-ns  ph6-ns center">
 
-              <div className="cf br4 fl w-25-ns center grow bg-white shadow-4">
+              <div className="cf br4 fl w-25-ns center mb4 pointer grow bg-white shadow-4">
                 <div className="center mb3">
                   <a href="https://mirabeau.nl">
                     <img className="db bg-center br-top-4 cover" src={banner1} alt="Article 1 banner"/>
@@ -120,7 +117,7 @@ export default ({ data }) => {
                 </div>
               </div>
 
-              <div className="cf fl w-third-m w-25-ns center grow bg-white br4 shadow-4">
+              <div className="cf fl w-third-m w-25-ns center mb4 pointer grow bg-white br4 shadow-4">
                 <div className="center mb3">
                   <a href="https://openesbk.com">
                     <img className="db bg-center br-top-4 cover" src={banner2} alt="Article 2 banner"/>
@@ -132,7 +129,7 @@ export default ({ data }) => {
                 </div>
               </div>
 
-              <div className="cf center fl w-third-m w-25-ns grow bg-white br4 shadow-4">
+              <div className="cf center fl w-third-m w-25-ns mb4 pointer grow bg-white br4 shadow-4">
                 <div className="center mb3">
                   <a href="https://theturnsignalblog.com">
                   <img className="db bg-center br-top-4 cover" src={banner3} alt="Article 3 banner"/>
@@ -147,8 +144,8 @@ export default ({ data }) => {
           </div>
           <div className="cf pv4">
             <p className="tc f3 fw9 inria mb6 nord0">Some cool people like what I write</p>
-            <div className="w-30-ns center-ns">
-              <div className="cf w-100 mb5 inline-flex center">
+            <div className=" w-40-m w-30-l center">
+              <div className="cf w-100 mb5 center inline-flex ">
                 <div className="cf fl w-50 ph3 mb4 grow">
                   <a href="https://uxdesign.cc">
                     <img className="db bg-center cover" src={uxcollective} alt="UX Collective Logo"/>

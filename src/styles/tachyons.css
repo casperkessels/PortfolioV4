@@ -36,6 +36,8 @@
 .nord14 { color: var(--nord14); }
 .nord15 { color: var(--nord15); }
 
+.hover-nord9:hover { color: var(--nord9); }
+
 /*! TACHYONS v4.9.1 | http://tachyons.io */
 /*
  *

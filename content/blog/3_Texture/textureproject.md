@@ -1,7 +1,7 @@
 ---
 title: "Texture Based Haptics"
 date: "2019-11-23"
-tags: ["Human-Computer Interaction"]
+tags: ["Human-Computer Interaction, Research"]
 subtitle: "test"
 thumbnail: ./Thumbnail_Haptics.png
 ---
@@ -18,7 +18,7 @@ We did user tests to research what kind of dimensions users can feel. This resul
 
 The technology we created consists of a 3D print with two different kind of materials. One soft material (black) and one hard material (blue). By compressing the print, the soft material bends over the edges of the hard material creating a bumpy surface. The higher the compression, the higher the bumps.
 
-UNADJUSTEDNONRAW_thumb_91f5DSC_8808
+![NS](./UNADJUSTEDNONRAW_thumb_91f5.jpg)
 
 The second user tests were conducted to test how accurate the prototype could mimic textures and to see how big the influence of visuals are on the perceived realism of the prototype. By putting a texture on a virtual cube without any context, the realism of the protoype could be tested. And by showing the same texture on a cube and a dinosaur (without informing the participant), the influence of the visual experience could be tested. For these tests, the hydraulic compression system was created with the help of lasercutters.
 UNADJUSTEDNONRAW_thumb_9288systemmodel
