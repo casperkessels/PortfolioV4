@@ -30,7 +30,7 @@ module.exports = {
         short_name: `Portfolio`,
         start_url: `/`,
         display: `standalone`,
-        icon: `../../content/images/favicon.png`,
+        icon: `content/images/favicon.png`,
       },
     },
     {
