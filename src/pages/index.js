@@ -21,8 +21,14 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'
 
 
+
 export default ({ data }) => {
-  AOS.init()
+
+
+const componentDidMount = () => {
+  AOS.init();
+};
+
   return (
     <Layout>
     <Helmet>
