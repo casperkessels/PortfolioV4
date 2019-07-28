@@ -27,6 +27,7 @@ export default ({ data }) => {
 
 const componentDidMount = () => {
   AOS.init();
+  AOS.refresh()
 };
 
   return (
