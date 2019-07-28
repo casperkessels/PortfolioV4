@@ -26,8 +26,14 @@ export default ({ data }) => {
 
 
 const componentDidMount = () => {
-  AOS.init();
-  AOS.refresh()
+  const AOS = require('aos');
+  this.aos = AOS
+  this.aos.init()
+};
+
+
+const componentDidUpdate = () => {
+    this.aos.refresh()
 };
 
   return (
