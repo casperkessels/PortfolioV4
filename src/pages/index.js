@@ -3,6 +3,7 @@ import Helmet from "react-helmet"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import "../styles/tachyons.css"
+import "../styles/aos.css"
 import "../fonts/fonts.css"
 import mirabeau_logo from "../../content/images/mirabeau_logo.jpg"
 import openesbk_logo from "../../content/images/openesbk_logo.png"
@@ -16,7 +17,12 @@ import noteworthy from "../../content/images/noteworthy.png"
 import thestartup from "../../content/images/thestartup.jpg"
 import muzli from "../../content/images/muzli.png"
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+
+
 export default ({ data }) => {
+  AOS.init()
   return (
     <Layout>
     <Helmet>
@@ -25,7 +31,7 @@ export default ({ data }) => {
     </Helmet>
       <div className="w-100">
         <section className="w-100 h-auto bg-white inria">
-          <div className="db mv7 ph3 pv3 mh-auto center-l w-60-l">
+          <div className="db mv7 ph3 pv3 mh-auto center-l w-60-l" data-aos="fade-up" data-aos-duration="600" data-aos-offset="-50" data-aos-delay="300">
             <div className="w-30 w-20-ns v-mid pv2 ph3 dib-l">
               <img className="br-100" src={profilepicture} alt="Profile Picture"/>
             </div>
@@ -79,13 +85,14 @@ export default ({ data }) => {
 
         <ul className="list fl w-100  center tc db ph1 ph4-ns pv4 v-top ">
 
+
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <li key={node.id} className="dib mh-auto w5 w6-ns h6-ns mv3 mh3-ns grow v-top">
+          <li key={node.id} className="dib mh-auto w5 w6-ns h6-ns mv3 mh3-ns v-top" data-aos="fade-up" data-aos-duration="600"  data-aos-delay="0">
             <Link
               to={node.fields.slug}
-              className="no-underline  nord0"
+              className="no-underline nord0"
             >
-              <div className="relative br4 bg-white pb3 shadow-4" >
+              <div className="relative br4 bg-white pb3 shadow-4 grow" >
                 <div>
                   <img className="br-top-4" src={node.frontmatter.thumbnail.childImageSharp.fluid.src} alt=""/>
                 </div>
@@ -100,12 +107,12 @@ export default ({ data }) => {
         </ul>
         </section>
 
-        <section className="ph4-ns ph3 pv4 bg_nord17 inria">
+        <section className="ph4-l ph3 pv4 bg_nord17 inria">
           <div className="cf pv6 center">
             <p className="tc f3 fw9 inria mb6 nord0">Here are some of my recent articles</p>
-            <div className="cf w-80 w-100-ns mb5 inline-flex-ns  ph6-ns center">
+            <div className="cf db  w-100 mb5 ph5 inline-flex-ns center">
 
-              <div className="cf br4 fl w-25-ns center mb4 pointer grow bg-white shadow-4">
+              <div className="cf dib br4 w6-ns h6-ns grow w-third-m fl w-25-l center mb4 pointer bg-white shadow-4" >
                 <div className="center mb3">
                   <a href="https://mirabeau.nl">
                     <img className="db bg-center br-top-4 cover" src={banner1} alt="Article 1 banner"/>
@@ -117,7 +124,7 @@ export default ({ data }) => {
                 </div>
               </div>
 
-              <div className="cf fl w-third-m w-25-ns center mb4 pointer grow bg-white br4 shadow-4">
+              <div className="cf fl dib grow w6-ns h6-ns w-third-m w-25-l center mb4 pointer bg-white br4 shadow-4">
                 <div className="center mb3">
                   <a href="https://openesbk.com">
                     <img className="db bg-center br-top-4 cover" src={banner2} alt="Article 2 banner"/>
@@ -129,7 +136,7 @@ export default ({ data }) => {
                 </div>
               </div>
 
-              <div className="cf center fl w-third-m w-25-ns mb4 pointer grow bg-white br4 shadow-4">
+              <div className="cf center dib grow w6-ns h6-ns fl w-third-m w-25-l mb4 pointer bg-white br4 shadow-4">
                 <div className="center mb3">
                   <a href="https://theturnsignalblog.com">
                   <img className="db bg-center br-top-4 cover" src={banner3} alt="Article 3 banner"/>

@@ -29,10 +29,8 @@ module.exports = {
         name: `Portfolio Casper Kessels`,
         short_name: `Portfolio`,
         start_url: `/`,
-        background_color: `#6b37bf`,
-        theme_color: `#6b37bf`,
         display: `standalone`,
-        icon: `content/images/favicon.png`,
+        icon: `../../content/images/favicon.png`,
       },
     },
     {

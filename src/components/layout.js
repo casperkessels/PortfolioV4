@@ -2,6 +2,9 @@ import React from "react"
 import { useStaticQuery, Link, graphql } from "gatsby"
 import "../styles/tachyons.css"
 import "../fonts/fonts.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+
 
 export default ({ children }) => {
   const data = useStaticQuery(
@@ -26,6 +29,11 @@ export default ({ children }) => {
             to={`/about/`}
             >
             About
+          </Link>
+          <Link className="link hover-nord9 nord0 f5 f4-ns dib mr3 mr4-l"
+            to={`/about/`}
+            >
+            Resume
           </Link>
         </div>
       </nav>

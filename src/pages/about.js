@@ -2,7 +2,9 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 
+
 export default ({ data }) => (
+
   <Layout>
     <section className="cf w-50-ns ph4-ns ph3 mt6 pv4 center v-top">
       <div className="cf flex flex-column flex-row-ns mb4">
@@ -95,7 +97,7 @@ export default ({ data }) => (
           <p>In my spare time, I like to run, travel, and take photos. Here are some of my latest pictures</p>
         </div>
 
-        <div className="cf db grow ">
+        <div className="cf db grow">
           <img className="w-100-ns center" src="https://live.staticflickr.com/65535/48210941356_a15293d155_k.jpg"/>
         </div>
 
@@ -121,8 +123,34 @@ export default ({ data }) => (
           </div>
         </div>
 
-        <div className="cf db grow mb6">
+        <div className="cf db grow">
           <img className="w-100-ns center" src="https://live.staticflickr.com/65535/48210990507_a72e59e032_k.jpg"/>
+        </div>
+
+        <div className="cf db">
+          <div className="dib w-50-ns pt2 pb2 pr2-ns grow">
+            <img className="w-100-ns" src="https://live.staticflickr.com/65535/48210947806_d1ea22c42e_k.jpg"/>
+          </div>
+          <div className="dib pt2-ns pb2 pl2-ns w-50-ns grow">
+            <img className="w-100-ns" src="https://live.staticflickr.com/65535/48210946101_316d2988a4_k.jpg"/>
+          </div>
+        </div>
+
+        <div className="cf db grow">
+          <img className="w-100-ns center" src="https://live.staticflickr.com/65535/48198959991_86d71c0678_k.jpg"/>
+        </div>
+
+        <div className="cf db">
+          <div className="dib w-50-ns pt2 pb2 pr2-ns grow">
+            <img className="w-100-ns" src="https://live.staticflickr.com/65535/48210991317_5743d38dd5_k.jpg"/>
+          </div>
+          <div className="dib pt2-ns pb2 pl2-ns w-50-ns grow">
+            <img className="w-100-ns" src="https://live.staticflickr.com/65535/48198960326_fc6ba2977a_k.jpg"/>
+          </div>
+        </div>
+
+        <div className="cf db grow mb6">
+          <img className="w-100-ns center" src="https://live.staticflickr.com/65535/48199000637_6fee665594_k.jpg"/>
         </div>
       </div>
     </section>
