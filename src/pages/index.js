@@ -16,6 +16,10 @@ import uxcollective from "../../content/images/uxcollective.png"
 import noteworthy from "../../content/images/noteworthy.png"
 import thestartup from "../../content/images/thestartup.jpg"
 import muzli from "../../content/images/muzli.png"
+import "animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
+
+
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'
@@ -23,18 +27,6 @@ import 'aos/dist/aos.css'
 
 
 export default ({ data }) => {
-
-
-const componentDidMount = () => {
-  const AOS = require('aos');
-  this.aos = AOS
-  this.aos.init()
-};
-
-
-const componentDidUpdate = () => {
-    this.aos.refresh()
-};
 
   return (
     <Layout>
@@ -44,7 +36,8 @@ const componentDidUpdate = () => {
     </Helmet>
       <div className="w-100">
         <section className="w-100 h-auto bg-white inria">
-          <div className="db mv7 ph3 pv3 mh-auto center-l w-60-l" data-aos="fade-up" data-aos-duration="600" data-aos-offset="-50" data-aos-delay="300">
+        <ScrollAnimation animateIn="fadeInUp">
+          <div className="db mv7 ph3 pv3 mh-auto center-l w-60-l" >
             <div className="w-30 w-20-ns v-mid pv2 ph3 dib-l">
               <img className="br-100" src={profilepicture} alt="Profile Picture"/>
             </div>
@@ -52,6 +45,8 @@ const componentDidUpdate = () => {
               <p className="tl b inria f5"> Hi! I am Casper!</p>
               <p className="tl inria f5"> I am an interaction designer currently based in Amsterdam. I am passionate about solving complex problems with design and do some other stuff to fill up the emtpy space here !</p>            </div>
           </div>
+          </ScrollAnimation>
+
         </section>
 
         <section className="w-100 h-auto bg_nord17 nord0 inria">
@@ -100,11 +95,13 @@ const componentDidUpdate = () => {
 
 
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <li key={node.id} className="dib mh-auto w5 w6-ns h6-ns mv3 mh3-ns v-top" data-aos="fade-up" data-aos-duration="600"  data-aos-delay="0">
+
+          <li key={node.id} className="dib mh-auto w5 w6-ns h6-ns mv3 mh3-ns v-top" >
             <Link
               to={node.fields.slug}
               className="no-underline nord0"
             >
+            <ScrollAnimation animateIn="fadeInUp">
               <div className="relative br4 bg-white pb3 shadow-4 grow" >
                 <div>
                   <img className="br-top-4" src={node.frontmatter.thumbnail.childImageSharp.fluid.src} alt=""/>
@@ -114,8 +111,10 @@ const componentDidUpdate = () => {
                   <p className="f6 inria ">{node.frontmatter.tags}</p>
                 </div>
               </div>
+              </ScrollAnimation>
              </Link>
           </li>
+
         ))}
         </ul>
         </section>
