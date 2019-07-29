@@ -85,7 +85,7 @@ export default ({ data }) => (
         </div>
         <div className="fl w-70-ns pa2">
           <p className="bl pl3">I start Open eSBK with some friends</p>
-          <p className="bl pl3">I start my blog and write articles about the mix of cars, design, and technology</p>
+          <p className="bl pl3">I start my blog and write articles about the intersection of cars, design, and technology</p>
           <p className="bl pl3">I move to Amsterdam and start as Interaction Designer at Mirabeau 🇳🇱</p>
         </div>
       </div>

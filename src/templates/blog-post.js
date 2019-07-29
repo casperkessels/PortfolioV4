@@ -10,7 +10,7 @@ export default ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
-      <div className="w-100 bg_nord17">
+      <div className="w-100 bg_nord17 pv5">
         <article>
           <div className="ph3 ph4-ns w-70-ns mt5 center">
             <Link className="hover-nord9 nord0 no-underline" to={`/`}>⟵ Back</Link>

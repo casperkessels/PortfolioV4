@@ -55,7 +55,7 @@ export default ({ children }) => {
         <a href="mailto:casperkessels@gmail.com" target="_blank">
           <p className="link hover-nord9 nord0 f6 f5-l dib mr3 mr4-l">Email</p>
         </a>
-        <div className="w-60 center mt5">
+        <div className="w-60 center mt3">
         <p className="inria f6 light-silver">This website is made from scratch with React, Gatsby, and Tachyons. It is typeset in Inria and uses the Nord Theme.</p>
         </div>
       </footer>
