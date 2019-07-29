@@ -3,7 +3,6 @@ import Helmet from "react-helmet"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import "../styles/tachyons.css"
-import "../styles/aos.css"
 import "../fonts/fonts.css"
 import mirabeau_logo from "../../content/images/mirabeau_logo.jpg"
 import openesbk_logo from "../../content/images/openesbk_logo.png"
@@ -18,11 +17,6 @@ import thestartup from "../../content/images/thestartup.jpg"
 import muzli from "../../content/images/muzli.png"
 import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
-
-
-
-import AOS from 'aos';
-import 'aos/dist/aos.css'
 
 
 
@@ -43,7 +37,7 @@ export default ({ data }) => {
             </div>
             <div className="w-80-l ph3 bl v-mid dib-l">
               <p className="tl b inria f5"> Hi! I am Casper!</p>
-              <p className="tl inria f5"> I am an interaction designer currently based in Amsterdam. I am passionate about solving complex problems with design and do some other stuff to fill up the emtpy space here !</p>            </div>
+              <p className="tl inria f5"> I am an interaction designer currently based in Amsterdam. I am passionate about empowering people with technolgy through design </p>            </div>
           </div>
           </ScrollAnimation>
 
@@ -131,8 +125,8 @@ export default ({ data }) => {
                   </a>
                 </div>
                 <div className="db dib-ns tl mt3 mb2 ph3">
-                  <a href="https://mirabeau.nl" className="tl f5 b inria black no-underline">Why Car Companies Need Interaction Designers</a>
-                  <p>7 minute read</p>
+                  <a href="https://theturnsignalblog.com/blog/why-car-companies-need-interaction-designers" className="tl f5 b inria black no-underline">Why Car Companies Need Interaction Designers</a>
+                  <p>9 minute read</p>
                 </div>
               </div>
 
@@ -143,8 +137,8 @@ export default ({ data }) => {
                   </a>
                 </div>
                 <div className="db tl mt3 mb2 ph3">
-                  <a href="https://openesbk.com" className="tl f5 b inria black no-underline">Overcoming Automotive Consumerism, How Design Can Encourage Sustainability</a>
-                  <p>7 minute read</p>
+                  <a href="https://theturnsignalblog.com/blog/overcoming-automotive-consumerism" className="tl f5 b inria black no-underline">Overcoming Automotive Consumerism, How Design Can Encourage Sustainability</a>
+                  <p>11 minute read</p>
                 </div>
               </div>
 
@@ -155,8 +149,8 @@ export default ({ data }) => {
                   </a>
                 </div>
                 <div className="db tl mt3 mb2 ph3">
-                  <a href="https://theturnsignalblog.com" className="tl f5 b inria black no-underline">Designing A New UX Concept to Reduce Driver Distraction</a>
-                  <p>7 minute read</p>
+                  <a href="https://theturnsignalblog.com/blog/newconceptfordriverdistraction" className="tl f5 b inria black no-underline">Designing A New UX Concept to Reduce Driver Distraction</a>
+                  <p>13 minute read</p>
                 </div>
               </div>
             </div>

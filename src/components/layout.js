@@ -2,8 +2,7 @@ import React from "react"
 import { useStaticQuery, Link, graphql } from "gatsby"
 import "../styles/tachyons.css"
 import "../fonts/fonts.css"
-import AOS from 'aos';
-import 'aos/dist/aos.css'
+
 
 
 export default ({ children }) => {

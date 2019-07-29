@@ -98,59 +98,59 @@ export default ({ data }) => (
         </div>
 
         <div className="cf db grow">
-          <img className="w-100-ns center" src="https://live.staticflickr.com/65535/48210941356_a15293d155_k.jpg"/>
+          <a href="https://www.flickr.com/photos/182446581@N04/48210941356/in/datetaken-public/" target="_blank"><img className="w-100-ns center" src="https://live.staticflickr.com/65535/48210941356_a15293d155_k.jpg"/></a>
         </div>
 
         <div className="cf db">
           <div className="dib w-50-ns pt2 pb2 pr2-ns grow">
-            <img className="w-100-ns" src="https://live.staticflickr.com/65535/48198968296_c1ca709012_h.jpg"/>
+            <a href="https://www.flickr.com/photos/182446581@N04/48198968296/in/datetaken-public/" target="_blank"><img className="w-100-ns" src="https://live.staticflickr.com/65535/48198968296_c1ca709012_h.jpg"/></a>
           </div>
           <div className="dib pt2-ns pb2 pl2-ns w-50-ns grow">
-            <img className="w-100-ns" src="https://live.staticflickr.com/65535/48198960726_0752ed6b67_k.jpg"/>
+            <a href="https://www.flickr.com/photos/182446581@N04/48198960726/in/datetaken-public/" target="_blank"><img className="w-100-ns" src="https://live.staticflickr.com/65535/48198960726_0752ed6b67_k.jpg"/></a>
           </div>
         </div>
 
         <div className="cf db grow">
-          <img className="w-100-ns center" src="https://live.staticflickr.com/65535/48210937991_311e612b01_h.jpg"/>
+          <a href="https://www.flickr.com/photos/182446581@N04/48210937991/in/datetaken-public/" target="_blank"><img className="w-100-ns center" src="https://live.staticflickr.com/65535/48210937991_311e612b01_h.jpg"/></a>
         </div>
 
         <div className="cf db">
           <div className="dib w-50-ns pt2 pb2 pr2-ns grow">
-            <img className="w-100-ns" src="https://live.staticflickr.com/65535/48210948791_98556817a7_k.jpg"/>
+            <a href="https://www.flickr.com/photos/182446581@N04/48210948791/in/datetaken-public/" target="_blank"><img className="w-100-ns" src="https://live.staticflickr.com/65535/48210948791_98556817a7_k.jpg"/></a>
           </div>
           <div className="dib pt2-ns pb2 pl2-ns w-50-ns grow">
-            <img className="w-100-ns" src="https://live.staticflickr.com/65535/48199010917_b4a4b0ecef_k.jpg"/>
+            <a href="https://www.flickr.com/photos/182446581@N04/48199010917/in/datetaken-public/" target="_blank"><img className="w-100-ns" src="https://live.staticflickr.com/65535/48199010917_b4a4b0ecef_k.jpg"/></a>
           </div>
         </div>
 
         <div className="cf db grow">
-          <img className="w-100-ns center" src="https://live.staticflickr.com/65535/48210990507_a72e59e032_k.jpg"/>
+          <a href="https://www.flickr.com/photos/182446581@N04/48198959991/in/datetaken-public/" target="_blank"><img className="w-100-ns center" src="https://live.staticflickr.com/65535/48198959991_86d71c0678_k.jpg"/></a>
         </div>
 
         <div className="cf db">
           <div className="dib w-50-ns pt2 pb2 pr2-ns grow">
-            <img className="w-100-ns" src="https://live.staticflickr.com/65535/48210947806_d1ea22c42e_k.jpg"/>
+            <a href="https://www.flickr.com/photos/182446581@N04/48210947806/in/datetaken-public/" target="_blank"><img className="w-100-ns" src="https://live.staticflickr.com/65535/48210947806_d1ea22c42e_k.jpg"/></a>
           </div>
           <div className="dib pt2-ns pb2 pl2-ns w-50-ns grow">
-            <img className="w-100-ns" src="https://live.staticflickr.com/65535/48210946101_316d2988a4_k.jpg"/>
+            <a href="https://www.flickr.com/photos/182446581@N04/48210946101/in/datetaken-public/" target="_blank"><img className="w-100-ns" src="https://live.staticflickr.com/65535/48210946101_316d2988a4_k.jpg"/></a>
           </div>
         </div>
 
         <div className="cf db grow">
-          <img className="w-100-ns center" src="https://live.staticflickr.com/65535/48198959991_86d71c0678_k.jpg"/>
+          <a href="https://www.flickr.com/photos/182446581@N04/48210990507/in/datetaken-public/" target="_blank"><img className="w-100-ns center" src="https://live.staticflickr.com/65535/48210990507_a72e59e032_k.jpg"/></a>
         </div>
 
         <div className="cf db">
           <div className="dib w-50-ns pt2 pb2 pr2-ns grow">
-            <img className="w-100-ns" src="https://live.staticflickr.com/65535/48210991317_5743d38dd5_k.jpg"/>
+            <a href="https://www.flickr.com/photos/182446581@N04/48210991317/in/datetaken-public/" target="_blank"><img className="w-100-ns" src="https://live.staticflickr.com/65535/48210991317_5743d38dd5_k.jpg"/></a>
           </div>
           <div className="dib pt2-ns pb2 pl2-ns w-50-ns grow">
-            <img className="w-100-ns" src="https://live.staticflickr.com/65535/48198960326_fc6ba2977a_k.jpg"/>
+            <a href="https://www.flickr.com/photos/182446581@N04/48198960326/in/datetaken-public/" target="_blank"><img className="w-100-ns" src="https://live.staticflickr.com/65535/48198960326_fc6ba2977a_k.jpg"/></a>
           </div>
         </div>
 
         <div className="cf db grow mb6">
-          <img className="w-100-ns center" src="https://live.staticflickr.com/65535/48199000637_6fee665594_k.jpg"/>
+          <a href="https://www.flickr.com/photos/182446581@N04/48199000637/in/datetaken-public/" target="_blank"><img className="w-100-ns center" src="https://live.staticflickr.com/65535/48199000637_6fee665594_k.jpg"/></a>
         </div>
       </div>
     </section>
