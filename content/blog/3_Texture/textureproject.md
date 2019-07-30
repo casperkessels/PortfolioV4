@@ -6,7 +6,7 @@ subtitle: "test"
 thumbnail: ./Thumbnail_Haptics.png
 ---
 
-Fore more detailed information, have a look at the report or at [our paper](https://dl.acm.org/citation.cfm?id=3301164).
+Fore more detailed information, have a look at [the report](https://github.com/casperkessels/PortfolioV4/blob/master/content/blog/3_Texture/TextureBasedHaptics.pdf) or at [our paper](https://dl.acm.org/citation.cfm?id=3301164).
 
 ##Problem
 

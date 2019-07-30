@@ -16,7 +16,7 @@ The research showed that even though more and more technologies are added to the
 
 ![Role of the Interaction Designer](./uxgraph.png)
 
-Considering this, new interaction models were explored. Building on academic research, a broad concept, consisting of three parts, was designed to show a new way of interaction with the car using existing technologies.
+Considering this, I explored new interaction models. Building on academic research, I designed a broad concept, consisting of three parts, to show a new way of interaction with the car using existing technologies.
 
 ##Proposed Solution
 First, a new way of interacting between the driver and the cluster using gesture interaction is presented. Drivers can input gestures with their thumbs using touchpads. This has numerous advantages. First, users never look down further than the cluster screen because the touchpads don’t display anything. Second, the interaction model is very similar to touch interfaces on smartphones and tablets which users are used to. Last, custom gestures can be set up to perform an interaction that would otherwise require numerous actions.
@@ -37,3 +37,5 @@ Interesting next tests would be to research the usability in a driving environme
 
 
 [Check out the video of the final prototype](https://www.youtube.com/watch?v=FXgWM8VarwM)
+
+[Read the full report here](https://github.com/casperkessels/PortfolioV4/blob/master/content/blog/1_Renault/Thesis_CasperKessels.pdf)

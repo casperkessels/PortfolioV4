@@ -37,7 +37,7 @@ export default ({ data }) => {
             </div>
             <div className="w-80-l ph3 bl v-mid dib-l">
               <p className="tl b inria f5"> Hi! I am Casper!</p>
-              <p className="tl inria f5"> I am an interaction designer currently based in Amsterdam. I am passionate about empowering people with technolgy through design </p>            </div>
+              <p className="tl inria f5"> I am an interaction designer currently based in Amsterdam. I am passionate about exploring new ways design and technology can improve people’s lives. I love the challenge of creating simple interfaces for complex systems. </p>            </div>
           </div>
           </ScrollAnimation>
 
