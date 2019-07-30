@@ -15,9 +15,9 @@ An important part of the competition is its outside communication. As it is a br
 ##Name
 First the name. We believe the core principle of our competition is that it is open. By limiting the technical restrictions, we allow participating teams to truly innovate in the field of electric mobility to become faster than the competitors.
 Also, we  want to give it the same appeal as any other established racing competition so from just hearing the name, it has to sound like well established competition.
-Last, it has to be very easy to remember and it should not infringe or be close to other brand names
+Last, it has to be very easy to remember and it should not infringe or be close to other brand names.
 
-Open eSBK
+We settled on Open Electric Superbike Competition.
 
 ##Logo
 After creating the name, it was time to create a logo. I first looked at similar organisations like Formula e and other electric & non-electric racing competitions. I then looked at the context in which the designs would be used which is very broad, from big physical prints, to small logos on videos.
@@ -28,11 +28,14 @@ I concluded that the logo had to be very simple and self explanatory. Also there
 
 Electric and innovation are represented by a bright blue color.
 
-![Logo application as watermark and flag banner](./openesbk_logo_application.png)
+![Logo application as watermark and flag banner](./openesbk_logo_application.jpg)
 
 
 ##Color scheme
-![](./timeline.png)
+I chose to use a bright blue shade as only primary color as it represents innovation and electricity.
+![Examples of my brainstorming. The second choice was ultimately chosen](./colorscheme.png)
+![Final color scheme](./colorscheme_final.png)
+
 
 
 ##Website
@@ -41,6 +44,7 @@ The website is very important as it is the main means of communication and marke
 ![](./website.png)
 
 ##Marketing materials
+We can differentiate ourselves from other racing competitions by attractive well-designed communication materials. These are some examples I created for print.
 ###Brochure
 ![](./brochure.png)
 ###Flyer
