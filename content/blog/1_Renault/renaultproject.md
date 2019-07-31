@@ -38,4 +38,4 @@ Interesting next tests would be to research the usability in a driving environme
 
 [Check out the video of the final prototype](https://www.youtube.com/watch?v=FXgWM8VarwM)
 
-[Read the full report here](https://github.com/casperkessels/PortfolioV4/blob/master/content/blog/1_Renault/Thesis_CasperKessels.pdf)
+[Read the full report here](Thesis_CasperKessels.pdf)

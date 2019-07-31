@@ -29,11 +29,9 @@ export default ({ children }) => {
             >
             About
           </Link>
-          <Link className="link hover-nord9 nord0 f5 f4-ns dib mr3 mr4-l"
-            to={`/about/`}
-            >
+          <a href="CV_CasperKessels.pdf" className="link hover-nord9 nord0 f5 f4-ns dib mr3 mr4-l">
             Resume
-          </Link>
+          </a>
         </div>
       </nav>
       <div className=" flex flex-wrap content-start center">
