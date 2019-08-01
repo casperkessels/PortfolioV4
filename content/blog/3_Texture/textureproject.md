@@ -1,6 +1,6 @@
 ---
 title: "Texture Based Haptics"
-date: "2019-11-23"
+date: "2017-07-23"
 tags: ["Human-Computer Interaction, Research"]
 subtitle: "test"
 thumbnail: ./Thumbnail_Haptics.png
@@ -28,7 +28,6 @@ The technology we created consists of a 3D print with two different kind of mate
 ###Second test: accuracy of the first prototype
 The second user tests were conducted to test how accurate the prototype could mimic textures and to see how big the influence of visuals are on the perceived realism of the prototype. By putting a texture on a virtual cube without any context, the realism of the protoype could be tested. And by showing the same texture on a cube and a dinosaur (without informing the participant), the influence of the visual experience could be tested. For these tests, the hydraulic compression system was created with the help of lasercutters.
 
-UNADJUSTEDNONRAW_thumb_9288systemmodel
 
 ##Final Prototype
 For our final system evaluation experiment we tested the prototype both in a congruent and incongruent condition. In the congruent condition, the compression of the prototype matched the texture of the dinosaur, in the incongruent condition, they are different. The findings show that participants can correctly identify the visual and haptic feedback in the congruent condition, while in the incongruent condition people seem to answer more randomly and negative. However participants in the congruent condition do not consider the overall experience of the system better – meaning that the haptic device does influence their perception, but more indirectly after they experienced the three different textures. Nonetheless, overall people liked the experience with the prototype a lot and considered touching virtual objects in this context certainly as an additional value to the field of virtual reality.

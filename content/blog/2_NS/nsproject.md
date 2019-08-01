@@ -1,6 +1,6 @@
 ---
 title: "Improving the User Experience of the NS Ticket Machine"
-date: "2019-10-01"
+date: "2018-08-01"
 tags: ["UX design"]
 subtitle: "I could improve the user experience of the system in a 5-day design sprint."
 thumbnail: './Thumbnail_NS.png'

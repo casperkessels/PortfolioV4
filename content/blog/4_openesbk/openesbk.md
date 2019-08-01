@@ -1,6 +1,6 @@
 ---
 title: "Open eSBK Branding"
-date: "2019-10-23"
+date: "2018-06-02"
 tags: ["Graphic Design, UI Design"]
 subtitle: "test"
 thumbnail: ./Thumbnail_Open_eSBK.png

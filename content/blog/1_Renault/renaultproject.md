@@ -1,9 +1,9 @@
 ---
 title: "Rethinking the Interactions Between People and Cars"
-date: "2019-09-01"
+date: "2018-09-01"
 tags: ["UX Design, Research"]
 subtitle: "test"
-thumbnail: ./Thumbnail_Renault.png
+thumbnail: ./Thumbnail_Renault2.png
 ---
 
 I wrote an in-depth article on my blog with more details about the concept [here](https://theturnsignalblog.com/blog/newconceptfordriverdistraction)

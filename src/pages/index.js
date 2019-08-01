@@ -85,7 +85,7 @@ export default ({ data }) => {
         <h1 className="tc f3 fw9 inria mb6 white">Check out some of my recent projects</h1>
 
 
-        <ul className="list fl w-100  center tc db ph1 ph4-ns pv4 v-top ">
+        <ul className="list fl w-100  tc db ph1 ph4-ns pv4 v-top ">
 
 
         {data.allMarkdownRemark.edges.map(({ node }) => (
@@ -100,9 +100,9 @@ export default ({ data }) => {
                 <div>
                   <img className="br-top-4" src={node.frontmatter.thumbnail.childImageSharp.fluid.src} alt=""/>
                 </div>
-                <div className="mh4 mv3 tl">
-                  <h2 className="f4 fw9 mt0 lh-title inria"> {node.frontmatter.title} </h2>
-                  <p className="f6 inria ">{node.frontmatter.tags}</p>
+                <div className="mh4 mv3 h3-ns tl">
+                  <h2 className="f4 fw9 mt0 mb0 lh-title inria"> {node.frontmatter.title} </h2>
+                  <p className="f6 mt2 inria ">{node.frontmatter.tags}</p>
                 </div>
               </div>
               </ScrollAnimation>
@@ -190,7 +190,7 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: ASC }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       totalCount
       edges {
         node {
