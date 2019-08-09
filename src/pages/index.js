@@ -85,7 +85,7 @@ export default ({ data }) => {
         <h1 className="tc f3 fw9 inria mb6 white">Check out some of my recent projects</h1>
 
 
-        <ul className="list fl w-100  tc db ph1 ph4-ns pv4 v-top ">
+        <ul className="list fl w-100 tc db ph1 ph4-ns pv4 v-top ">
 
 
         {data.allMarkdownRemark.edges.map(({ node }) => (
