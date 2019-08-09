@@ -26,7 +26,7 @@ export default ({ data }) => (
         </div>
         <div className="fl w-70-ns pa2">
           <p className="bl pl3 ">I graduate from my high school in Belgium</p>
-          <p className="bl pl3">I start my bachelor’s degree in Creative Technology at the University of Twente. I will lean how to take an idea from brainstorm to prototype and create a business model around it</p>
+          <p className="bl pl3">I start my bachelor’s degree in Creative Technology at the University of Twente. I will learn how to take an idea from brainstorm to prototype and create a business model around it</p>
         </div>
       </div>
 
@@ -37,7 +37,7 @@ export default ({ data }) => (
           </div>
         </div>
         <div className="fl w-70-ns pa2">
-          <p className="bl pl3">I spend a semester abroad in Sweden to follow courses on computer science 🇸🇪</p>
+          <p className="bl pl3">I spend a semester abroad in Sweden to follow courses in computer science 🇸🇪</p>
         </div>
       </div>
 
@@ -49,7 +49,7 @@ export default ({ data }) => (
         </div>
         <div className="fl w-70-ns pa2">
           <p className="bl pl3">I finish my bachelor's degree</p>
-          <p className="bl pl3">I start my master's degree in Human Computer Interaction and Design at the EIT Digital Master School. This is a program that combines a technical degree from two different universities with courses and a summer school on business & entrepreneurship. My first year is at the University of Twente</p>
+          <p className="bl pl3">I start my master's degree in Human-Computer Interaction and Design at the EIT Digital Master School. This is a program that combines a technical degree from two different universities with courses and a summer school on business & entrepreneurship. My first year is at the University of Twente</p>
         </div>
       </div>
 
@@ -72,8 +72,8 @@ export default ({ data }) => (
           </div>
         </div>
         <div className="fl w-70-ns pa2">
-          <p className="bl pl3">6-month internship at the design department of Groupe Renault. I worked on the UX design of the next generation infotainment system and executed my own project.</p>
-          <p className="bl pl3">I obtain my master's degree with honours from EIT Digital</p>
+          <p className="bl pl3">6-month internship at the design department of Groupe Renault. I worked on the UX design of the next-generation infotainment system and executed my own project.</p>
+          <p className="bl pl3">I obtain my master's degree with honors from EIT Digital</p>
         </div>
       </div>
 
