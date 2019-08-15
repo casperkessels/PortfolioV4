@@ -38,6 +38,12 @@
 
 .hover-nord9:hover { color: var(--nord9); }
 
+figcaption{
+  font-size: 0.875rem;
+  color: var(--nord9);
+  padding-top:0.5rem;
+}
+
 /*! TACHYONS v4.9.1 | http://tachyons.io */
 /*
  *
@@ -98,7 +104,7 @@ pre { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
 /**
  * Remove the gray background on active links in IE 10.
  */
-a { background-color: transparent; }
+a { background-color: transparent; color: var(--nord9);}
 /**
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
