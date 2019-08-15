@@ -39,9 +39,9 @@
 .hover-nord9:hover { color: var(--nord9); }
 
 figcaption{
-  font-size: 0.875rem;
-  color: var(--nord9);
-  padding-top:0.5rem;
+  font-size: 0.875rem !important;
+  color: var(--nord9) !important;
+  padding-top:0.5rem !important;
 }
 
 /*! TACHYONS v4.9.1 | http://tachyons.io */

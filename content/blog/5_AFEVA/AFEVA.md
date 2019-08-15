@@ -35,16 +35,16 @@ I processed the feedback of the tests and then did another test if needed.
 
 ![Most screens went through multiple iterations to meet business, user, and technical needs. The first two screens had too much information on one page, this was solved in the right screen](iterations.png)
 
-If not other test was needed, I worked together with the visual designer and developers to create the final design that was going to be implemented in the app.
+If no other test was needed, I worked together with the visual designer and developers to create the final design that was going to be implemented in the app.
 
 ![Going from prototype to final design](./visualdesign.png)
 
-As only interaction designer, I lead the process of researching and designing all the different screens. I strongly advocated doing regular user tests to be able to understand the very complex process of the mechanics, and to gain the trust of the end-user.
+As the only interaction designer, I lead the process of researching and designing all the different screens. I strongly advocated doing regular user tests to be able to understand the very complex process of the mechanics, and to gain the trust of the end-user.
 
 #Challenge
 The project was a big challenge from an interaction design perspective. How can you take the entire workflow of mechanics and turn it into a digital app, taking into account the higher flexibility that paper has over digital, and the openness to change of the users who have been working in a certain way for years and are now forced to change.
 
-The biggest challenge in that regard was in aligning all the different processes of the mechanic. Air France has multiple hangars in multiple airports. And in each hangar, there is different maintenance work and teams working in different ways. All of these teams had to use the app and therefore, work in roughly the same way. Next to that, there are very strict regulations around the work so I was often limited in what the design could do. The way I approached this is by doing as many user tests as possible. These tests help to improve the usability of the app, but also to meet the mechanics, show them what we are working on, and gain buy-in from them. Next to that, I worked together with stakeholders who were in charge of process-related changes by creating prototypes and visuals that helped in communicating our vision and showing the benefits.
+The biggest challenge in that regard was in aligning all the different processes of the mechanic. Air France has multiple hangars in multiple airports. And in each hangar, there is different maintenance work and teams working in different ways. All of these teams had to use the app and therefore, work in roughly the same way. Next to that, there are very strict regulations around the work so I was often limited in what I could do with the design. The way I approached this was by doing as many user tests as possible.
 
 The prototype was created without any technical constraints and without looking too much into the future. So next to developing all the features, it was also a challenge to lay out a framework that would allow the app to grow and stay usable. Coming up with such a framework from the start is very difficult so, at the start, I first developed screens based on the prototype. When I gathered enough knowledge about the project, I worked on this framework and slowly introduced it into the design. This gradual process made sure that we did not delay the project too much and satisfied all stakeholders.
 
