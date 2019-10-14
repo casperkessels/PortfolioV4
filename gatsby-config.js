@@ -8,21 +8,23 @@ module.exports = {
   plugins: [
     'gatsby-plugin-sharp',
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-images',
+            resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 970,
+              maxWidth: 1360,
+              withWebp: true,
+              showCaptions: true,
+              quality: 75,
+              wrapperStyle: `margin: 7vw 0;`,
             },
           },
+          `gatsby-remark-copy-linked-files`,
         ],
       },
     },
-
-
-
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -52,24 +54,6 @@ module.exports = {
       options: {
         name: `content`,
         path: `${__dirname}/content`,
-      },
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 1360,
-              withWebp: true,
-              showCaptions: true,
-              quality: 75,
-              wrapperStyle: `margin: 7vw 0;`,
-            },
-          },
-          `gatsby-remark-copy-linked-files`,
-        ],
       },
     },
     `gatsby-plugin-emotion`,

@@ -32,5 +32,3 @@ The second user tests were conducted to test how accurate the prototype could mi
 ##Final Prototype
 For our final system evaluation experiment we tested the prototype both in a congruent and incongruent condition. In the congruent condition, the compression of the prototype matched the texture of the dinosaur, in the incongruent condition, they are different. The findings show that participants can correctly identify the visual and haptic feedback in the congruent condition, while in the incongruent condition people seem to answer more randomly and negative. However participants in the congruent condition do not consider the overall experience of the system better – meaning that the haptic device does influence their perception, but more indirectly after they experienced the three different textures. Nonetheless, overall people liked the experience with the prototype a lot and considered touching virtual objects in this context certainly as an additional value to the field of virtual reality.
 
-##My Role
-

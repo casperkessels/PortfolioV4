@@ -5,6 +5,7 @@ import "../fonts/fonts.css"
 
 
 
+
 export default ({ children }) => {
   const data = useStaticQuery(
     graphql`
@@ -17,6 +18,8 @@ export default ({ children }) => {
       }
     `
   )
+
+
   return (
     <div className="min-vh-100 w-100 flex flex-column inria">
       <nav className=" dt absolute w-100 border-box pa3 ph5-ns bg-white-10">
