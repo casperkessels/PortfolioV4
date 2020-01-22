@@ -89,6 +89,16 @@ export default ({ data }) => (
           <p className="bl pl3">I move to Amsterdam and start as Interaction Designer at Mirabeau 🇳🇱</p>
         </div>
       </div>
+      <div className="cf flex flex-column flex-row-ns mb4">
+        <div className="fl w-30-ns pa2 v-top h-25">
+          <div className="v-top tr-ns mr3">
+            <h2 className="inria f4 nord9">2020</h2>
+          </div>
+        </div>
+        <div className="fl w-70-ns pa2">
+          <p className="bl pl3">I move back to Paris and start as a UX/UI Designer at Goodpatch where I work on automotive projects 🇫🇷</p>
+        </div>
+      </div>
     </section>
 
     <section className="cf bg_nord0 pv4 ph4-ns ph3">
@@ -97,6 +107,32 @@ export default ({ data }) => (
           <p>In my spare time, I like to run, travel, and take photos. Here are some of my latest pictures.</p>
           <p>You can find more of my pictures on my <a href="https://www.flickr.com/photos/182446581@N04/" target="_blank">Flickr</a></p>
 
+        </div>
+
+         <div className="cf db">
+          <img className="w-100-ns center" src="https://live.staticflickr.com/65535/49426522197_ece492c903_k.jpg"/>
+        </div>
+
+        <div className="cf db">
+          <div className="dib w-50-ns pt2 pb2 pr2-ns">
+            <img className="w-100-ns" src="https://live.staticflickr.com/65535/49426298606_dc46fe682e_k.jpg"/>
+          </div>
+          <div className="dib pt2-ns pb2 pl2-ns w-50-ns">
+            <img className="w-100-ns" src="https://live.staticflickr.com/65535/49426521522_d5563d59f7_k.jpg"/>
+          </div>
+        </div>
+
+        <div className="cf db">
+          <img className="w-100-ns center" src="https://live.staticflickr.com/65535/49426300171_6da4eba43e_k.jpg"/>
+        </div>
+
+        <div className="cf db">
+          <div className="dib w-50-ns pt2 pb2 pr2-ns">
+            <img className="w-100-ns" src="https://live.staticflickr.com/65535/49426297926_c888864cba_k.jpg"/>
+          </div>
+          <div className="dib pt2-ns pb2 pl2-ns w-50-ns">
+            <img className="w-100-ns" src="https://live.staticflickr.com/65535/49426298951_f3848bff30_k.jpg"/>
+          </div>
         </div>
 
         <div className="cf db">

@@ -40,7 +40,7 @@ export default ({ data }) => {
             </div>
             <div className="w-80-l ph3 bl v-mid dib-l">
               <p className="tl b inria f5"> Hi! I am Casper!</p>
-              <p className="tl inria f5"> I am an interaction designer currently based in Amsterdam. I am passionate about exploring new ways how design and technology can improve people’s lives. I love the challenge of creating simple interfaces for complex systems. </p>            </div>
+              <p className="tl inria f5"> I am an interaction designer currently based in Paris. I am passionate about exploring new ways how design and technology can improve people’s lives. I love the challenge of creating simple interfaces for complex systems. </p>            </div>
           </div>
           </ScrollAnimation>
 
@@ -62,8 +62,8 @@ export default ({ data }) => {
               </div>
               <div className="cf fl tc w-third-m w-25-ns center grow">
                 <div className="center w-50 w-40-ns mb4">
-                  <a href="https://openesbk.com">
-                    <img className="br-100 db bg-center cover" src={openesbk_logo} alt="OpeneSBK Logo"/>
+                  <a href="https://openesbk.com">                    
+                  <img className="br-100 db bg-center cover" src={openesbk_logo} alt="OpeneSBK Logo"/>
                   </a>
                 </div>
                 <div className="db mb6 nord0">
