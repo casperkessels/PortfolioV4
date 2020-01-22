@@ -15,6 +15,6 @@ thumbnail: './Thumbnail_RGO.png'
  In the final design, I processed this feedback by prioritizing color over numbers to improve readability. But as more accurate information was requested by the users, instead of adding the precise number, I added the big steps of the RPM and a big number for the current gear in the middle.
 
  ![Color gives a clearer indication when to shift then numbers](./RPM_Animation.gif)
- ![Eco driving score & RPM Gauge](./screenshot1.PNG)
- ![Current eco driving gauge & fuel gauge](./screenshot2.PNG)
- ![Widgets on the app dashboard](./screenshot3.PNG)
+ ![Eco driving score & RPM Gauge](./screenshot1.png)
+ ![Current eco driving gauge & fuel gauge](./screenshot2.png)
+ ![Widgets on the app dashboard](./screenshot3.png)
