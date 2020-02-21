@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import "../styles/tachyons.css"
 import "../fonts/fonts.css"
-import mirabeau_logo from "../../content/images/mirabeau_logo.jpg"
+import goodpatch_logo from "../../content/images/goodpatch_logo.jpg"
 import openesbk_logo from "../../content/images/openesbk_logo.png"
 import turnsignal_logo from "../../content/images/turnsignal_logo.png"
 import profilepicture from "../../content/images/profilepicture.jpg"
@@ -53,16 +53,16 @@ export default ({ data }) => {
               <div className="cf fl tc w-25-ns center grow">
                 <div className="center w-50 w-40-ns mb4">
                   <a href="https://mirabeau.nl">
-                    <img className="br-100 db bg-center cover" src={mirabeau_logo} alt="Mirabeau Logo"/>
+                    <img className="br-100 db bg-center cover" src={goodpatch_logo} alt="Mirabeau Logo"/>
                   </a>
                 </div>
                 <div className="db dib-ns nord0 mb6">
-                  <a href="https://mirabeau.nl" className="tc f5 inria nord0 no-underline"> Interaction Designer at Mirabeau </a>
+                  <a href="https://mirabeau.nl" className="tc f5 inria nord0 no-underline"> UX/UI Designer at Goodpatch </a>
                 </div>
               </div>
               <div className="cf fl tc w-third-m w-25-ns center grow">
                 <div className="center w-50 w-40-ns mb4">
-                  <a href="https://openesbk.com">                    
+                  <a href="https://openesbk.com">
                   <img className="br-100 db bg-center cover" src={openesbk_logo} alt="OpeneSBK Logo"/>
                   </a>
                 </div>
