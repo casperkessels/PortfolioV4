@@ -125,7 +125,7 @@ export default ({ data }) => {
                   </a>
                 </div>
                 <div className="db dib-ns tl mt3 mb2 ph3">
-                  <a href="https://theturnsignalblog.com/blog/why-car-companies-need-interaction-designers" className="tl f5 b inria black no-underline">Why Car Companies Need Interaction Designers</a>
+                  <a href="https://theturnsignalblog.com/blog/why-car-companies-need-interaction-designers" className="tl f5 b inria black no-underline">Designing A New UX Concept to Reduce Driver Distraction</a>
                   <p>13 minute read</p>
                 </div>
               </div>
@@ -137,7 +137,7 @@ export default ({ data }) => {
                   </a>
                 </div>
                 <div className="db tl mt3 mb2 ph3">
-                  <a href="https://theturnsignalblog.com/blog/overcoming-automotive-consumerism" className="tl f5 b inria black no-underline">Overcoming Automotive Consumerism, How Design Can Encourage Sustainability</a>
+                  <a href="https://theturnsignalblog.com/blog/overcoming-automotive-consumerism" className="tl f5 b inria black no-underline">How Waymo Uses Design to Create Trust in Self-Driving Cars</a>
                   <p>11 minute read</p>
                 </div>
               </div>
@@ -149,7 +149,7 @@ export default ({ data }) => {
                   </a>
                 </div>
                 <div className="db tl mt3 mb2 ph3">
-                  <a href="https://theturnsignalblog.com/blog/newconceptfordriverdistraction" className="tl f5 b inria black no-underline">Designing A New UX Concept to Reduce Driver Distraction</a>
+                  <a href="https://theturnsignalblog.com/blog/newconceptfordriverdistraction" className="tl f5 b inria black no-underline">An In-Depth Look at the UX Design of the Porsche Taycan</a>
                   <p>10 minute read</p>
                 </div>
               </div>
