@@ -6,7 +6,7 @@ subtitle: "test"
 thumbnail: ./Thumbnail_Renault2.png
 ---
 
-I wrote an in-depth article on my blog with more details about the concept [here](https://theturnsignalblog.com/blog/newconceptfordriverdistraction)
+I wrote an in-depth article on my blog with more details about the concept [here](https://theturnsignalblog.com/blog/gesture-interaction)
 
 ##Problem
 During my internship at the design department of Renault in Paris, I carried out this project as part of my master’s thesis. I tried to answer the question: if it was possible to design the interactions between a person and a car from scratch today, how could they be designed?

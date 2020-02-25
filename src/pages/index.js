@@ -8,20 +8,17 @@ import goodpatch_logo from "../../content/images/goodpatch_logo.jpg"
 import openesbk_logo from "../../content/images/openesbk_logo.png"
 import turnsignal_logo from "../../content/images/turnsignal_logo.png"
 import profilepicture from "../../content/images/profilepicture.jpg"
-import banner1 from "../../content/images/article1_banner.png"
-import banner2 from "../../content/images/article2_banner.gif"
-import banner3 from "../../content/images/article3_banner.gif"
+import banner1 from "../../content/images/renaultconcept.gif"
+import banner2 from "../../content/images/waymo.gif"
+import banner3 from "../../content/images/porsche.png"
 import uxcollective from "../../content/images/uxcollective.png"
 import noteworthy from "../../content/images/noteworthy.png"
 import thestartup from "../../content/images/thestartup.jpg"
 import muzli from "../../content/images/muzli.png"
+import uxweekly from "../../content/images/uxweekly.png"
+import sidebar from "../../content/images/sidebar.png"
 import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
-
-
-
-
-
 
 export default ({ data }) => {
 
@@ -57,7 +54,7 @@ export default ({ data }) => {
                   </a>
                 </div>
                 <div className="db dib-ns nord0 mb6">
-                  <a href="https://mirabeau.nl" className="tc f5 inria nord0 no-underline"> UX/UI Designer at Goodpatch </a>
+                  <a href="https://godpatch.com" className="tc f5 inria nord0 no-underline"> UX/UI Designer at Goodpatch </a>
                 </div>
               </div>
               <div className="cf fl tc w-third-m w-25-ns center grow">
@@ -119,23 +116,23 @@ export default ({ data }) => {
         <section className="ph4-l ph3 pv4 bg_nord17 inria">
           <div className="cf pv6 center">
             <p className="tc f3 fw9 inria mb6 nord0">Here are some of my recent articles</p>
-            <div className="cf db  w-100 mb5 ph5 inline-flex-ns center">
+            <div className="cf db  w-100 mb5 ph4 ph5-ns inline-flex-ns center">
 
               <div className="cf dib br4 w6-ns h6-ns grow w-third-m fl w-25-l center mb4 pointer bg-white shadow-4" >
                 <div className="center mb3">
-                  <a href="https://mirabeau.nl">
+                  <a href="https://theturnsignalblog.com/blog/gesture-interaction">
                     <img className="db bg-center br-top-4 cover" src={banner1} alt="Article 1 banner"/>
                   </a>
                 </div>
                 <div className="db dib-ns tl mt3 mb2 ph3">
                   <a href="https://theturnsignalblog.com/blog/why-car-companies-need-interaction-designers" className="tl f5 b inria black no-underline">Why Car Companies Need Interaction Designers</a>
-                  <p>9 minute read</p>
+                  <p>13 minute read</p>
                 </div>
               </div>
 
               <div className="cf fl dib grow w6-ns h6-ns w-third-m w-25-l center mb4 pointer bg-white br4 shadow-4">
                 <div className="center mb3">
-                  <a href="https://openesbk.com">
+                  <a href="https://theturnsignalblog.com/blog/waymo-design">
                     <img className="db bg-center br-top-4 cover" src={banner2} alt="Article 2 banner"/>
                   </a>
                 </div>
@@ -147,13 +144,13 @@ export default ({ data }) => {
 
               <div className="cf center dib grow w6-ns h6-ns fl w-third-m w-25-l mb4 pointer bg-white br4 shadow-4">
                 <div className="center mb3">
-                  <a href="https://theturnsignalblog.com">
+                  <a href="https://theturnsignalblog.com/blog/porschetaycan">
                   <img className="db bg-center br-top-4 cover" src={banner3} alt="Article 3 banner"/>
                   </a>
                 </div>
                 <div className="db tl mt3 mb2 ph3">
                   <a href="https://theturnsignalblog.com/blog/newconceptfordriverdistraction" className="tl f5 b inria black no-underline">Designing A New UX Concept to Reduce Driver Distraction</a>
-                  <p>13 minute read</p>
+                  <p>10 minute read</p>
                 </div>
               </div>
             </div>
@@ -161,25 +158,35 @@ export default ({ data }) => {
           <div className="cf pv4">
             <p className="tc f3 fw9 inria mb6 nord0">Some cool people like what I write</p>
             <div className=" w-40-m w-30-l center">
-              <div className="cf w-100 mb5 center inline-flex ">
-                <div className="cf fl w-50 ph3 mb4 grow">
+              <div className="flex flex-wrap justify-between-ns justify-center items-center center list mb5">
+                <div className="fl w4 ph3 mb4 grow">
                   <a href="https://uxdesign.cc">
                     <img className="db bg-center cover" src={uxcollective} alt="UX Collective Logo"/>
                   </a>
                 </div>
-                <div className="cf fl w-50 ph3 mb4 grow">
+                <div className="fl w4 ph3 mb4 grow">
                   <a href="https://blog.usejournal.com">
                     <img className="db bg-center cover" src={noteworthy} alt="Noteworthy Logo"/>
                   </a>
                 </div>
-                <div className="cf fl w-50 ph3 mb4 grow">
+                <div className="fl w4 ph3 mb4 grow">
                   <a href="https://medium.com/swlh">
                     <img className="db bg-center cover" src={thestartup} alt="The Startup Logo"/>
                   </a>
                 </div>
-                <div className="cf fl w-50 ph3 mb4 grow">
+                <div className="fl w4 ph3 mb4 grow">
                   <a href="https://muz.li">
                     <img className="db bg-center cover" src={muzli} alt="Muzli Logo"/>
+                  </a>
+                </div>
+                <div className="fl w4 ph3 mb4 grow">
+                  <a href="https://uxdesignweekly.com">
+                    <img className="db bg-center cover" src={uxweekly} alt="UXWeekly Logo"/>
+                  </a>
+                </div>
+                <div className="fl w4 ph3 mb4 grow">
+                  <a href="https://sidebar.io">
+                    <img className="db bg-center cover" src={sidebar} alt="Sidebar Logo"/>
                   </a>
                 </div>
               </div>
