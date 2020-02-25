@@ -32,7 +32,7 @@ export default ({ children }) => {
             >
             About
           </Link>
-          <a href="CV_CasperKessels.pdf" className="link hover-nord9 nord0 f5 f4-ns dib mr3 mr4-l">
+          <a href="https://www.casperkessels.com/CV_CasperKessels.pdf" className="link hover-nord9 nord0 f5 f4-ns dib mr3 mr4-l">
             Resume
           </a>
         </div>
