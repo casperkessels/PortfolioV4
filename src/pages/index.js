@@ -3,7 +3,6 @@ import Helmet from "react-helmet"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import "../styles/tachyons.css"
-import "../fonts/fonts.css"
 import goodpatch_logo from "../../content/images/goodpatch_logo.jpg"
 import openesbk_logo from "../../content/images/openesbk_logo.png"
 import turnsignal_logo from "../../content/images/turnsignal_logo.png"
@@ -29,23 +28,23 @@ export default ({ data }) => {
       <meta name="Description" content="My professional portfolio."/>
     </Helmet>
       <div className="w-100">
-        <section className="w-100 h-auto bg-white inria">
+        <section className="w-100 h-auto bg-white ">
         <ScrollAnimation animateIn="fadeInUp">
           <div className="db mv7 ph3 pv3 mh-auto center-l w-60-l" >
             <div className="w-30 w-20-ns v-mid pv2 ph3 dib-l">
               <img className="br-100" src={profilepicture} alt="Profile Picture"/>
             </div>
             <div className="w-80-l ph3 bl v-mid dib-l">
-              <p className="tl b inria f5"> Hi! I am Casper!</p>
-              <p className="tl inria f5"> I am an interaction designer currently based in Paris. I am passionate about exploring new ways how design and technology can improve people’s lives. I love the challenge of creating simple interfaces for complex systems. </p>            </div>
+              <p className="tl b f5"> Hi! I am Casper!</p>
+              <p className="tl f5"> I am an interaction designer currently based in Paris. I am passionate about exploring new ways how design and technology can improve people’s lives. I love the challenge of creating simple interfaces for complex systems. </p>            </div>
           </div>
           </ScrollAnimation>
 
         </section>
 
-        <section className="w-100 h-auto bg_nord17 nord0 inria">
+        <section className="w-100 h-auto bg_nord17 nord0">
           <div className="cf pv6 center">
-            <h1 className="tc f3 fw9 inria mb6">I am currently</h1>
+            <h1 className="tc fw9 mb6 nord1">I am currently</h1>
             <div className="cf w-70 w-100-ns mb5 inline-flex-ns  ph6-ns center">
               <div className="cf fl tc w-25-ns center grow">
                 <div className="center w-50 w-40-ns mb4">
@@ -54,7 +53,7 @@ export default ({ data }) => {
                   </a>
                 </div>
                 <div className="db dib-ns nord0 mb6">
-                  <a href="https://godpatch.com" className="tc f5 inria nord0 no-underline"> UX/UI Designer at Goodpatch </a>
+                  <a href="https://godpatch.com" className="tc f5 nord0 no-underline"> UX/UI Designer at Goodpatch </a>
                 </div>
               </div>
               <div className="cf fl tc w-third-m w-25-ns center grow">
@@ -64,7 +63,7 @@ export default ({ data }) => {
                   </a>
                 </div>
                 <div className="db mb6 nord0">
-                  <a href="https://openesbk.com" className="tc f5 inria nord0 no-underline"> Starting up an electric motorcycle racing series at Open eSBK </a>
+                  <a href="https://openesbk.com" className="tc f5 nord0 no-underline"> Starting up an electric motorcycle racing series at Open eSBK </a>
                 </div>
               </div>
               <div className="cf center fl w-third-m w-25-ns grow">
@@ -74,7 +73,7 @@ export default ({ data }) => {
                   </a>
                 </div>
                 <div className="db mb6 tc nord0">
-                  <a href="https://theturnsignalblog.com" className="tc f5 inria nord0 no-underline"> Writing my thoughts about cars, design, and technology at The Turnsignal </a>
+                  <a href="https://theturnsignalblog.com" className="tc f5 nord0 no-underline"> Writing my thoughts about cars, design, and technology at The Turnsignal </a>
                 </div>
               </div>
             </div>
@@ -82,7 +81,7 @@ export default ({ data }) => {
         </section>
 
         <section className="cf w-100 h-auto ph4-ns ph3 pv6 center bg_nord0 nord6">
-        <h1 className="tc f3 fw9 inria mb6 white">Check out some of my recent projects</h1>
+        <h1 className="tc fw9 mb6 white">Check out some of my recent projects</h1>
 
 
         <ul className="list fl w-100 tc db ph1 ph4-ns pv4 v-top ">
@@ -101,8 +100,8 @@ export default ({ data }) => {
                   <img className="br-top-4" src={node.frontmatter.thumbnail.childImageSharp.fluid.src} alt=""/>
                 </div>
                 <div className="mh4 mv3 h3-ns tl">
-                  <h2 className="f4 fw9 mt0 mb0 lh-title inria"> {node.frontmatter.title} </h2>
-                  <p className="f6 mt2 inria ">{node.frontmatter.tags}</p>
+                  <h2 className="f4 fw9 mt0 mb0 lh-title"> {node.frontmatter.title} </h2>
+                  <p className="f6 mt2 ">{node.frontmatter.tags}</p>
                 </div>
               </div>
               </ScrollAnimation>
@@ -113,9 +112,9 @@ export default ({ data }) => {
         </ul>
         </section>
 
-        <section className="ph4-l ph3 pv4 bg_nord17 inria">
+        <section className="ph4-l ph3 pv4 bg_nord17">
           <div className="cf pv6 center">
-            <p className="tc f3 fw9 inria mb6 nord0">Here are some of my recent articles</p>
+            <h1 className="tc fw9 mb6 nord1">Here are some of my recent articles</h1>
             <div className="cf db  w-100 mb5 ph4 ph5-ns inline-flex-ns center">
 
               <div className="cf dib br4 w6-ns h6-ns grow w-third-m fl w-25-l center mb4 pointer bg-white shadow-4" >
@@ -124,8 +123,8 @@ export default ({ data }) => {
                     <img className="db bg-center br-top-4 cover" src={banner1} alt="Article 1 banner"/>
                   </a>
                 </div>
-                <div className="db dib-ns tl mt3 mb2 ph3">
-                  <a href="https://theturnsignalblog.com/blog/why-car-companies-need-interaction-designers" className="tl f5 b inria black no-underline">Designing A New UX Concept to Reduce Driver Distraction</a>
+                <div className="db tl mt3 mb2 ph3">
+                  <a href="https://theturnsignalblog.com/blog/why-car-companies-need-interaction-designers" className="tl f5 b  black no-underline">Designing A New UX Concept to Reduce Driver Distraction</a>
                   <p>13 minute read</p>
                 </div>
               </div>
@@ -137,7 +136,7 @@ export default ({ data }) => {
                   </a>
                 </div>
                 <div className="db tl mt3 mb2 ph3">
-                  <a href="https://theturnsignalblog.com/blog/overcoming-automotive-consumerism" className="tl f5 b inria black no-underline">How Waymo Uses Design to Create Trust in Self-Driving Cars</a>
+                  <a href="https://theturnsignalblog.com/blog/overcoming-automotive-consumerism" className="tl f5 b  black no-underline">How Waymo Uses Design to Create Trust in Self-Driving Cars</a>
                   <p>11 minute read</p>
                 </div>
               </div>
@@ -149,14 +148,14 @@ export default ({ data }) => {
                   </a>
                 </div>
                 <div className="db tl mt3 mb2 ph3">
-                  <a href="https://theturnsignalblog.com/blog/newconceptfordriverdistraction" className="tl f5 b inria black no-underline">An In-Depth Look at the UX Design of the Porsche Taycan</a>
+                  <a href="https://theturnsignalblog.com/blog/newconceptfordriverdistraction" className="tl f5 b black no-underline">An In-Depth Look at the UX Design of the Porsche Taycan</a>
                   <p>10 minute read</p>
                 </div>
               </div>
             </div>
           </div>
           <div className="cf pv4">
-            <p className="tc f3 fw9 inria mb6 nord0">Some cool people like what I write</p>
+            <h2 className="tc fw9 mb6 nord1">Some cool people like what I write</h2>
             <div className=" w-40-m w-30-l center">
               <div className="flex flex-wrap justify-between-ns justify-center items-center center list mb5">
                 <div className="fl w4 ph3 mb4 grow">

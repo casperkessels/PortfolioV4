@@ -1,4 +1,6 @@
 @import "nord.css";
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap');
+
 
 .bg_nord0 { background-color: var(--nord0); }
 .bg_nord1 { background-color: var(--nord1); }
@@ -40,7 +42,7 @@
 
 figcaption{
   font-size: 0.875rem !important;
-  color: var(--nord9) !important;
+  color: #aaa !important; /* equals to light silver*/
   padding-top:0.5rem !important;
 }
 
@@ -776,7 +778,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .calisto { font-family: "Calisto MT", serif; }
 .garamond { font-family: garamond, serif; }
 .baskerville { font-family: baskerville, serif; }
-.inria { font-family: Inria Sans, serif; }
+.rubik { font-family: 'Rubik', sans-serif; }
 /*
 
    FONT STYLE

@@ -103,7 +103,7 @@ export default ({ data }) => (
 
     <section className="cf bg_nord0 pv4 ph4-ns ph3">
       <div className="cf w-60-ns center">
-        <div className="inria f4 nord6 tc mb6">
+        <div className="inria f5 nord6 tc mb5 pt3">
           <p>In my spare time, I like to run, travel, and take photos. Here are some of my latest pictures.</p>
           <p>You can find more of my pictures on my <a href="https://www.flickr.com/photos/182446581@N04/" target="_blank">Flickr</a></p>
 
