@@ -36,13 +36,6 @@ module.exports = {
       },
     },
     {
-    resolve: 'gatsby-plugin-simple-analytics',
-    options: {
-     // Optional custom domain
-     
-      }, 
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
@@ -68,6 +61,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
     `gatsby-background-image`,
+    `gatsby-plugin-simple-analytics`,
     `gatsby-plugin-react-helmet`,
     // {
     //   resolve: `gatsby-plugin-typography`,
