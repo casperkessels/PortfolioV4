@@ -14,7 +14,10 @@ export default ({ data }) => {
           <div className="ph3 ph4-ns w-70-ns mt5 center v-mid">
             <Link className="hover-nord9 nord0 no-underline v-mid" to={`/`}>
               <div className="bg-white dib br-pill h2 v-mid shadow-4 center tc ph3 pt2">← Back</div>
+
             </Link>
+
+
           </div>
           <div className="ph3 ph0-ns mt5 w-50-ns nord0 center">
             <h1 className="f2 nord0">{post.frontmatter.title}</h1>
