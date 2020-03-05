@@ -36,6 +36,13 @@ module.exports = {
       },
     },
     {
+    resolve: 'gatsby-plugin-simple-analytics',
+    options: {
+     // Optional custom domain
+     
+      }, 
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,

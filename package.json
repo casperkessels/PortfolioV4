@@ -1,7 +1,7 @@
 {
-  "name": "Portfolio Casper Kessels",
+  "name": "gatsby-starter-default",
   "private": true,
-  "description": "My professional portfolio",
+  "description": "my professional portfolio",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -50,6 +50,7 @@
     "typography-theme-kirkham": "^0.16.19"
   },
   "devDependencies": {
+    "gatsby-plugin-simple-analytics": "^1.0.3",
     "gh-pages": "^2.0.1",
     "prettier": "^1.18.2",
     "tachyons": "^4.10.0"
