@@ -48,22 +48,12 @@ export default ({ data }) => {
             <div className="cf w-70 w-100-ns mb5 inline-flex-ns  ph6-ns center">
               <div className="cf fl tc w-25-ns center grow">
                 <div className="center w-50 w-40-ns mb4">
-                  <a href="https://mirabeau.nl">
+                  <a href="https://goodpatch.com">
                     <img className="br-100 db bg-center cover" src={goodpatch_logo} alt="Mirabeau Logo"/>
                   </a>
                 </div>
                 <div className="db dib-ns nord0 mb6">
-                  <a href="https://godpatch.com" className="tc f5 nord0 no-underline"> UX/UI Designer at Goodpatch </a>
-                </div>
-              </div>
-              <div className="cf fl tc w-third-m w-25-ns center grow">
-                <div className="center w-50 w-40-ns mb4">
-                  <a href="https://openesbk.com">
-                  <img className="br-100 db bg-center cover" src={openesbk_logo} alt="OpeneSBK Logo"/>
-                  </a>
-                </div>
-                <div className="db mb6 nord0">
-                  <a href="https://openesbk.com" className="tc f5 nord0 no-underline"> Starting up an electric motorcycle racing series at Open eSBK </a>
+                  <a href="https://goodpatch.com" className="tc f5 nord0 no-underline"> UX/UI Designer at Goodpatch </a>
                 </div>
               </div>
               <div className="cf center fl w-third-m w-25-ns grow">
@@ -74,6 +64,16 @@ export default ({ data }) => {
                 </div>
                 <div className="db mb6 tc nord0">
                   <a href="https://theturnsignalblog.com" className="tc f5 nord0 no-underline"> Writing my thoughts about cars, design, and technology at The Turnsignal </a>
+                </div>
+              </div>
+              <div className="cf fl tc w-third-m w-25-ns center grow">
+                <div className="center w-50 w-40-ns mb4">
+                  <a href="https://openesbk.com">
+                  <img className="br-100 db bg-center cover" src={openesbk_logo} alt="OpeneSBK Logo"/>
+                  </a>
+                </div>
+                <div className="db mb6 nord0">
+                  <a href="https://openesbk.com" className="tc f5 nord0 no-underline"> Starting up an electric motorcycle racing series at Open eSBK </a>
                 </div>
               </div>
             </div>
