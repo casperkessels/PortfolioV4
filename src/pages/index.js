@@ -9,7 +9,7 @@ import turnsignal_logo from "../../content/images/turnsignal_logo.png"
 import profilepicture from "../../content/images/profilepicture.jpg"
 import banner1 from "../../content/images/renaultconcept.gif"
 import banner2 from "../../content/images/waymo.gif"
-import banner3 from "../../content/images/porsche.png"
+import banner3 from "../../content/images/touchconcept.png"
 import uxcollective from "../../content/images/uxcollective.png"
 import noteworthy from "../../content/images/noteworthy.png"
 import thestartup from "../../content/images/thestartup.jpg"
@@ -117,15 +117,15 @@ export default ({ data }) => {
             <h1 className="tc fw9 mb6 nord1">Here are some of my recent articles</h1>
             <div className="cf db  w-100 mb5 ph4 ph5-ns inline-flex-ns center">
 
-              <div className="cf dib br4 w6-ns h6-ns grow w-third-m fl w-25-l center mb4 pointer bg-white shadow-4" >
+              <div className="cf center dib grow w6-ns h6-ns fl w-third-m w-25-l mb4 pointer bg-white br4 shadow-4">
                 <div className="center mb3">
-                  <a href="https://theturnsignalblog.com/blog/gesture-interaction">
-                    <img className="db bg-center br-top-4 cover" src={banner1} alt="Article 1 banner"/>
+                  <a href="https://theturnsignalblog.com/blog/porschetaycan">
+                  <img className="db bg-center br-top-4 cover" src={banner3} alt="Article 3 banner"/>
                   </a>
                 </div>
                 <div className="db tl mt3 mb2 ph3">
-                  <a href="https://theturnsignalblog.com/blog/why-car-companies-need-interaction-designers" className="tl f5 b  black no-underline">Designing A New UX Concept to Reduce Driver Distraction</a>
-                  <p>13 minute read</p>
+                  <a href="https://theturnsignalblog.com/blog/new-touch-concept" className="tl f5 b black no-underline">A New Concept for Usable Touch Interaction in Cars</a>
+                  <p>12 minute read</p>
                 </div>
               </div>
 
@@ -136,22 +136,23 @@ export default ({ data }) => {
                   </a>
                 </div>
                 <div className="db tl mt3 mb2 ph3">
-                  <a href="https://theturnsignalblog.com/blog/overcoming-automotive-consumerism" className="tl f5 b  black no-underline">How Waymo Uses Design to Create Trust in Self-Driving Cars</a>
+                  <a href="https://www.theturnsignalblog.com/blog/waymo-design/" className="tl f5 b  black no-underline">How Waymo Uses Design to Create Trust in Self-Driving Cars</a>
                   <p>11 minute read</p>
                 </div>
               </div>
 
-              <div className="cf center dib grow w6-ns h6-ns fl w-third-m w-25-l mb4 pointer bg-white br4 shadow-4">
+              <div className="cf dib br4 w6-ns h6-ns grow w-third-m fl w-25-l center mb4 pointer bg-white shadow-4" >
                 <div className="center mb3">
-                  <a href="https://theturnsignalblog.com/blog/porschetaycan">
-                  <img className="db bg-center br-top-4 cover" src={banner3} alt="Article 3 banner"/>
+                  <a href="https://theturnsignalblog.com/blog/gesture-interaction">
+                    <img className="db bg-center br-top-4 cover" src={banner1} alt="Article 1 banner"/>
                   </a>
                 </div>
                 <div className="db tl mt3 mb2 ph3">
-                  <a href="https://theturnsignalblog.com/blog/newconceptfordriverdistraction" className="tl f5 b black no-underline">An In-Depth Look at the UX Design of the Porsche Taycan</a>
-                  <p>10 minute read</p>
+                  <a href="https://www.theturnsignalblog.com/blog/gesture-interaction/" className="tl f5 b  black no-underline">Designing A New UX Concept to Reduce Driver Distraction</a>
+                  <p>13 minute read</p>
                 </div>
               </div>
+
             </div>
           </div>
           <div className="cf pv4">

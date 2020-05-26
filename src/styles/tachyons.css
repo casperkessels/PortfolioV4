@@ -46,6 +46,23 @@ figcaption{
   padding-top:0.5rem !important;
 }
 
+.iframe-container {
+  position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 5%;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 /*! TACHYONS v4.9.1 | http://tachyons.io */
 /*
  *
