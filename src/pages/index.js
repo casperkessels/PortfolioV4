@@ -3,7 +3,7 @@ import Helmet from "react-helmet"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import "../styles/tachyons.css"
-import goodpatch_logo from "../../content/images/goodpatch_logo.jpg"
+import aircall_logo from "../../content/images/aircall_logo.png"
 import openesbk_logo from "../../content/images/openesbk_logo.png"
 import turnsignal_logo from "../../content/images/turnsignal_logo.png"
 import profilepicture from "../../content/images/profilepicture.jpg"
@@ -49,11 +49,11 @@ export default ({ data }) => {
               <div className="cf fl tc w-25-ns center grow">
                 <div className="center w-50 w-40-ns mb4">
                   <a href="https://goodpatch.com">
-                    <img className="br-100 db bg-center cover" src={goodpatch_logo} alt="Mirabeau Logo"/>
+                    <img className="br-100 db bg-center cover" src={aircall_logo} alt="Mirabeau Logo"/>
                   </a>
                 </div>
                 <div className="db dib-ns nord0 mb6">
-                  <a href="https://goodpatch.com" className="tc f5 nord0 no-underline"> UX/UI Designer at Goodpatch </a>
+                  <a href="https://aircall.io" className="tc f5 nord0 no-underline"> Product Designer at Aircall </a>
                 </div>
               </div>
               <div className="cf center fl w-third-m w-25-ns grow">

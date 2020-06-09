@@ -97,6 +97,7 @@ export default ({ data }) => (
         </div>
         <div className="fl w-70-ns pa2">
           <p className="bl pl3">I move back to Paris and start as a UX/UI Designer at Goodpatch where I work on automotive projects 🇫🇷</p>
+          <p className="bl pl3">Right after their Series C funding, I join Aircall as Product Designer</p>
         </div>
       </div>
     </section>
