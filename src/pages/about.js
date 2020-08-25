@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 export default ({ data }) => (
 
   <Layout>
-    <section className="cf w-50-ns ph4-ns ph3 mt6 pv4 center v-top">
+    <section className="cf w-50-l w-70-m ph4-ns ph3 mt6 pv4 center v-top">
       <div className="cf flex flex-column flex-row-ns mb4">
         <div className="fl w-30-ns pa2 v-top h-25">
           <div className="v-top tr-ns mr3">
