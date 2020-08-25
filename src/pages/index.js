@@ -42,7 +42,7 @@ export default ({ data }) => {
 
         </section>
 
-        <section className="w-100 h-auto bg_nord17 nord0">
+        <section className="w-100 h-auto tc bg_nord17 nord0">
           <div className="cf pv6 center">
             <h1 className="tc fw9 mb6 nord1">I am currently</h1>
             <div className="cf w-70 w-100-ns mb5 inline-flex-ns  ph6-ns center">
