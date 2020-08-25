@@ -46,16 +46,18 @@ export default ({ data }) => {
           <div className="cf pv6 center">
             <h1 className="tc fw9 mb6 nord1">I am currently</h1>
             <div className="cf w-70 w-100-ns mb5 inline-flex-ns  ph6-ns center">
-              <div className="cf fl tc w-25-ns center grow">
+              
+              <div className="cf center fl w-third-m w-25-ns grow">
                 <div className="center w-50 w-40-ns mb4">
-                  <a href="https://goodpatch.com">
-                    <img className="br-100 db bg-center cover" src={aircall_logo} alt="Mirabeau Logo"/>
+                  <a href="https://aircall.io">
+                    <img className="br-100 db bg-center cover" src={aircall_logo} alt="Aircall Logo"/>
                   </a>
                 </div>
-                <div className="db dib-ns nord0 mb6">
+                <div className="db dib-ns nord0 mb6 tc">
                   <a href="https://aircall.io" className="tc f5 nord0 no-underline"> Product Designer at Aircall </a>
                 </div>
               </div>
+
               <div className="cf center fl w-third-m w-25-ns grow">
                 <div className="center w-50 w-40-ns mb4">
                   <a href="https://theturnsignalblog.com">
@@ -66,6 +68,7 @@ export default ({ data }) => {
                   <a href="https://theturnsignalblog.com" className="tc f5 nord0 no-underline"> Writing my thoughts about cars, design, and technology at The Turnsignal </a>
                 </div>
               </div>
+
               <div className="cf fl tc w-third-m w-25-ns center grow">
                 <div className="center w-50 w-40-ns mb4">
                   <a href="https://openesbk.com">
