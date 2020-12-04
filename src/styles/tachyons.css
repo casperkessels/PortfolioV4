@@ -1,5 +1,87 @@
 @import "nord.css";
-@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap');
+
+
+html, body {
+/*  cursor: none; */
+/*  background-color: #161618;
+*/  background-color: #f8f9fb;
+
+}
+
+.thumbnailimage {
+    flex-shrink: 0;
+    width: auto;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+}
+
+.verticalLine {
+border-left: thin solid #34383c;
+width: 2px;
+color: #fff;
+margin-bottom: 75px;
+}
+
+/*CAROUSEL*/
+.slick-prev {
+  left: 25px!important;
+  z-index: 99;
+}
+
+.slick-next {
+  right: 25px!important;
+  z-index: 99;
+}
+
+/*.cursor {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none !important;
+  z-index: 9999;
+  mix-blend-mode: difference;
+  transition-property: opacity;
+  transition-property:  opacity, background-color, transform, mix-blend-mode;
+  transition: transform 0.07s, width 0.3s, height 0.3s;
+}*/
+
+/*.cursor--hidden {
+   opacity: 0;
+}
+
+.cursor--clicked {
+   transform: translate(-50%, -50%) scale(0.9);
+   background-color: #fefefe;
+}
+
+.cursor--link-hovered {
+    height: 50px;
+    width: 50px;
+    mix-blend-mode: difference;
+    box-shadow: 0px 0px 15px -5px rgba(255, 255, 255, 1);
+    pointer-events: none !important;
+ }*/
+
+a {
+   color: #ffffff;
+/*   cursor: none;
+*/ }
+
+
+ .subtitlecolor { 
+/*    color: #8F9BA7;
+*/    color: var(--nord3);; 
+  }
 
 
 .bg_nord0 { background-color: var(--nord0); }
@@ -20,6 +102,7 @@
 .bg_nord15 { background-color: var(--nord15); }
 .bg_nord16 { background-color: #fbfbfc; }
 .bg_nord17 { background-color:#f8f9fb; }
+.bg_nord18 { background-color: #141416 }
 
 .nord0 { color: var(--nord0); }
 .nord1 { color: var(--nord1); }
@@ -37,17 +120,18 @@
 .nord13 { color: var(--nord13); }
 .nord14 { color: var(--nord14); }
 .nord15 { color: var(--nord15); }
+.nord16 { color: #fbfbfc; }
 
-.hover-nord9:hover { color: var(--nord9); }
+.hover-nord9:hover { color: var(--nord9) !important; }
 
 figcaption{
   font-size: 0.875rem !important;
-  color: #aaa !important; /* equals to light silver*/
+  color: var(--nord3) !important; /* equals to light silver*/
   padding-top:0.5rem !important;
 }
 
 .iframe-container {
-  position: relative;
+    position: relative;
     padding-bottom: 56.25%;
     padding-top: 35px;
     height: 0;
@@ -62,6 +146,7 @@ figcaption{
     width: 100%;
     height: 100%;
 }
+
 
 /*! TACHYONS v4.9.1 | http://tachyons.io */
 /*
@@ -376,9 +461,9 @@ img { max-width: 100%; }
 
 */
 .ba { border-style: solid; border-width: 1px; }
-.bt { border-top-style: solid; border-top-width: 1px; }
+.bt { border-top-style: solid; border-top-width: 0.5px; }
 .br { border-right-style: solid; border-right-width: 1px; }
-.bb { border-bottom-style: solid; border-bottom-width: 1px; }
+.bb { border-bottom-style: solid; border-bottom-width: 0.5px; }
 .bl { border-left-style: solid; border-left-width: 1px; }
 .bn { border-style: none; border-width: 0; }
 /*
@@ -463,6 +548,7 @@ img { max-width: 100%; }
 .b--washed-red { border-color: #ffdfdf; }
 .b--transparent { border-color: transparent; }
 .b--inherit { border-color: inherit; }
+.b--primary { border-color: #8F9BA7; }
 /*
 
    BORDER RADIUS
@@ -575,6 +661,7 @@ img { max-width: 100%; }
 .shadow-3 { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
 .shadow-4 { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2 ); }
 .shadow-5 { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 ); }
+.shadow-6 { box-shadow: 0 2px 44px 0 rgba(0,0,0,0.14); }
 /*
 
    CODE
@@ -1812,6 +1899,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .f5 { font-size: 1rem; }
 .f6 { font-size: .875rem; }
 .f7 { font-size: .75rem; }
+.f8 { font-size: .6rem; }
 /* Small and hard to read for many people so use with extreme caution */
 /*
 
@@ -2107,6 +2195,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /* Uncomment out the line below to help debug layout issues */
 /* @import './_debug'; */
 @media screen and (min-width: 30em) {
+ .bg-transparant-ns { background-color:transparent; } 
  .aspect-ratio-ns { height: 0; position: relative; }
  .aspect-ratio--16x9-ns { padding-bottom: 56.25%; }
  .aspect-ratio--9x16-ns { padding-bottom: 177.77%; }

@@ -4,6 +4,14 @@ module.exports = {
   pathPrefix: "/portfolio",
   siteMetadata: {
     title: `Portfolio Casper Kessels`,
+    author: {
+      name: `Casper Kessels`,
+    },
+    description: `The professional portfolio of Casper Kessels`,
+    siteUrl: `https://casperkessels.com/`,
+    social: {
+      twitter: `@casperkessels`,
+    },
   },
   plugins: [
     'gatsby-plugin-sharp',
@@ -56,6 +64,13 @@ module.exports = {
         path: `${__dirname}/content`,
       },
     },
+    {
+    resolve: 'gatsby-plugin-simple-analytics',
+    options: {
+     // Optional custom domain
+     domain: 'sa.casperkessels.com'
+      },
+    },
     `gatsby-plugin-emotion`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -63,11 +78,11 @@ module.exports = {
     `gatsby-background-image`,
     `gatsby-plugin-simple-analytics`,
     `gatsby-plugin-react-helmet`,
-    // {
-    //   resolve: `gatsby-plugin-typography`,
-    //   options: {
-    //     pathToConfigModule: `src/utils/typography`,
-    //   },
-    // },
+    {
+       resolve: `gatsby-plugin-typography`,
+       options: {
+         pathToConfigModule: `src/utils/typography`,
+       },
+     },
   ],
 }

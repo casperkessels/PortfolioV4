@@ -3,7 +3,10 @@ title: "A New Concept for Usable Touch Interaction in Cars"
 date: "2019-07-01"
 tags: ["UX Design, UI Design"]
 subtitle: "test"
-thumbnail: ./thumbnail.png
+category: "project"
+thumbnail: ./thumbnail2.png
+status: "hidden"
+author: "Casper Kessels"
 ---
 
 

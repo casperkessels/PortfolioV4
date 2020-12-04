@@ -1,9 +1,13 @@
 ---
-title: "Rethinking the Interactions Between People and Cars"
-date: "2018-08-01"
+title: "Reducing Driver Distraction"
+date: "2018"
 tags: ["UX Design, Research"]
-subtitle: "test"
-thumbnail: ./Thumbnail_Renault2.png
+subtitle: "Reducing driver distraction"
+category: "work"
+thumbnail: ./thumbnail2.png
+banner: ./banner.png
+status: "published"
+author: "Casper Kessels"
 ---
 
 I wrote an in-depth article on my blog with more details about the concept [here](https://theturnsignalblog.com/blog/gesture-interaction)

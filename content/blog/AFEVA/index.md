@@ -1,9 +1,13 @@
 ---
 title: "Air France - EVA"
-date: "2019-08-01"
+date: "2019"
 tags: ["UX Design, UX Research"]
-subtitle: "test"
-thumbnail: ./Thumbnail_EVA.png
+subtitle: "Digital administration for aircraft maintenance"
+category: "work"
+thumbnail: ./thumbnail1.png
+banner: ./banner.png
+status: "published"
+author: "Casper Kessels"
 ---
 
 #Problem
