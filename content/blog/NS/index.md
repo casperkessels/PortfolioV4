@@ -5,6 +5,7 @@ tags: ["UX Design"]
 subtitle: "I could improve the user experience of the system in a 5-day design sprint."
 category: "project"
 thumbnail: './thumbnail3.png'
+banner: './thumbnail3.png'
 status: "hidden"
 author: "Casper Kessels"
 ---

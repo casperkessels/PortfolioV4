@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, Link, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import "../styles/tachyons.css"
 
 
@@ -30,23 +30,23 @@ export default ({ children }) => {
 
       <footer className="pv2 nord5 w-70-ns ph0-ns ph2 center f7 bt b--black-20">
         <div className="subtitlecolor dib">
-          <a href="https://twitter.com/CasperKessels" target="_blank">
+          <a href="https://twitter.com/CasperKessels" target="_blank" rel="noopener noreferrer">
             <p className="link hover-nord9 dib pr2 subtitlecolor f8">TWITTER</p>
           </a>
           <p className="dib subtitlecolor">·</p>
-          <a href="mailto:casperkessels@gmail.com" target="_blank">
+          <a href="mailto:casperkessels@gmail.com" target="_blank" rel="noopener noreferrer">
             <p className="link hover-nord9 dib ph2 subtitlecolor f8">EMAIL</p>
           </a>
           <p className="dib subtitlecolor">·</p>
-          <a href="https://www.linkedin.com/in/casper-kessels/" target="_blank">
+          <a href="https://www.linkedin.com/in/casper-kessels/" target="_blank" rel="noopener noreferrer">
             <p className="link hover-nord9 dib ph2 subtitlecolor f8">LINKEDIN</p>
           </a>
           <p className="dib subtitlecolor">·</p>
-          <a href="https://theturnsignalblog.com" target="_blank">
+          <a href="https://theturnsignalblog.com" target="_blank" rel="noopener noreferrer">
             <p className="link hover-nord9 dib ph2 subtitlecolor f8">BLOG</p>
           </a>
           <p className="dib subtitlecolor">·</p>
-          <a href="https://www.flickr.com/photos/182446581@N04/" target="_blank">
+          <a href="https://www.flickr.com/photos/182446581@N04/" target="_blank" rel="noopener noreferrer">
             <p className="link hover-nord9 dib pl2 subtitlecolor f8">FLICKR</p>
           </a>
         </div>

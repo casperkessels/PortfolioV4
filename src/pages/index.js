@@ -4,13 +4,9 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import "../styles/tachyons.css"
 
-import "animate.css/animate.min.css"
-import ScrollAnimation from 'react-animate-on-scroll'
-import Cursor from "../components/cursor"
-import Tags from "../components/tags"
 import Hello from "../components/hello"
-import photography from "../../content/images/photography.png"
-import turnsignal from "../../content/images/turnsignal.png"
+import photography from "../../content/images/photography.jpg"
+import turnsignal from "../../content/images/turnsignal.jpg"
 
 
 
@@ -25,38 +21,36 @@ export default ({ data }) => {
     </Helmet>        
     
     <div className="w-70-ns ph0-ns ph3 mt0 center vh-100">
-      <ScrollAnimation animateIn="fadeInUp">
         <div className="db mt6-ns mt3 mh-auto center" >
           <div className="cf v-mid center">
             <Hello /> 
-            <p className="lh-copy mt3 f4-ns f5 nord0">I am Casper, a digital product designer based in <s>Amsterdam</s> Paris. I am currently a product designer at <a href="https://aircall.io" target="_blank" className="bb bw1 nord0 no-underline hover-nord9">Aircall</a>. In my spare time I write on my <a href="https://theturnsignalblog.com" target="_blank" className="bb bw1 nord0 no-underline hover-nord9">blog</a> and work on side projects</p>
-            <a href="https://twitter.com/CasperKessels" target="_blank">
-              <p className="link hover-nord9 dib pr2 nord3 f8">TWITTER</p>
+            <p className="lh-copy mt3 f4-ns f5 nord0">I am Casper, a digital product designer based in <s>Amsterdam</s> Paris. I am currently a product designer at <a href="https://aircall.io" target="_blank" rel="noopener noreferrer" className="bb bw1 nord0 no-underline hover-nord9">Aircall</a>. In my spare time I write on my <a href="https://theturnsignalblog.com" target="_blank" rel="noopener noreferrer" className="bb bw1 nord0 no-underline hover-nord9">blog</a> and work on side projects</p>
+            <a href="https://twitter.com/CasperKessels" target="_blank" rel="noopener noreferrer">
+              <p className="link hover-nord9 dib pr2 nord3 f8" rel="noopener noreferrer">TWITTER</p>
             </a>
             <p className="dib nord3 f8">·</p>
-            <a href="mailto:casperkessels@gmail.com" target="_blank">
+            <a href="mailto:casperkessels@gmail.com" target="_blank" rel="noopener noreferrer">
               <p className="link hover-nord9 dib ph2 nord3 f8">EMAIL</p>
             </a>
             <p className="dib nord3 f8">·</p>
-            <a href="https://www.linkedin.com/in/casper-kessels/" target="_blank">
+            <a href="https://www.linkedin.com/in/casper-kessels/" target="_blank" rel="noopener noreferrer">
               <p className="link hover-nord9 dib ph2 nord3 f8">LINKEDIN</p>
             </a>
             <p className="dib nord3 f8">·</p>
-            <a href="https://theturnsignalblog.com" target="_blank">
+            <a href="https://theturnsignalblog.com" target="_blank" rel="noopener noreferrer">
               <p className="link hover-nord9 dib ph2 nord3 f8">BLOG</p>
             </a>
             <p className="dib nord3 f8">·</p>
-            <a href="https://www.flickr.com/photos/182446581@N04/" target="_blank">
+            <a href="https://www.flickr.com/photos/182446581@N04/" target="_blank" rel="noopener noreferrer">
               <p className="link hover-nord9 dib pl2 nord3 f8">FLICKR</p>
             </a>
           </div>
         </div>
 
-      </ScrollAnimation>
 
       <div className="tc w-100 nord0 absolute bottom-0 left-0 ">
         <p>Here is my latest work</p>
-        <p>👇</p>
+        <p><span role="img" aria-label="point down">👇</span></p>
         <div className="verticalLine tc center mb0">
           <br />
           <br />
@@ -117,10 +111,10 @@ export default ({ data }) => {
 
           <ul className="list db v-top ph0 ml0 mv6">
             <li className="dib-ns w-50-ns w-100 pr3-ns center" >
-              <a href="https://theturnsignalblog.com" target="_blank" className="no-underline nord0">
+              <a href="https://theturnsignalblog.com" target="_blank" rel="noopener noreferrer" className="no-underline nord0">
                 <div className="relative" >
                   <div className="grow">
-                    <img className="" src={turnsignal} alt=""/>
+                    <img className="" src={turnsignal} alt="The Turn Signal"/>
                   </div>
                   <div className="pb3">
                     <h2 className="lh-title mb0 f4 f5-ns mt2 nord0">The Turn Signal Blog</h2>
@@ -137,7 +131,7 @@ export default ({ data }) => {
               >
                 <div className="relative" >
                   <div className="grow">
-                    <img className="" src={photography} alt=""/>
+                    <img className="" src={photography} alt="photography"/>
                   </div>
                   <div className="pb3">
                     <h2 className="lh-title mb0 f4 f5-ns mt2 nord0">Photography</h2>

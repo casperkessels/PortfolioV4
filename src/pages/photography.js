@@ -1,7 +1,5 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Layout from "../components/layout"
-import Img from "gatsby-image"
 import Backbutton from "../components/backbutton"
 
 import Slider from "react-slick"
@@ -48,11 +46,11 @@ export default ({ data }) => (
     <div className= "db h-100 flex-ns items-end-l items-center-m justify-center flex-column-reverse-m">
         <div className="w-100 w-25-l w-80-m self-end-l pr3-l mt0-ns mv0-ns mv5">
           <p className="f5 mb1 mt3-m">Check out my Flickr or Instagram for more</p>
-          <a href="https://www.flickr.com/photos/182446581@N04/" target="_blank">
+          <a href="https://www.flickr.com/photos/182446581@N04/" target="_blank" rel="noopener noreferrer">
             <p className="link hover-nord9 dib pr2 nord3 f8 mb0">FLICKR</p>
           </a>
           <p className="dib nord3 f8 mb0">·</p>
-          <a href="https://www.instagram.com/theturnsignal/" target="_blank">
+          <a href="https://www.instagram.com/theturnsignal/" target="_blank" rel="noopener noreferrer">
             <p className="link hover-nord9 dib ph2 nord3 f8 mb0">INSTAGRAM</p>
           </a>
         </div>

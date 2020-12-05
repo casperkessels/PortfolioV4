@@ -1,8 +1,7 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import "../styles/tachyons.css"
-import Img from 'gatsby-image'
 import SEO from "../components/seo"
 import Cursor from "../components/cursor"
 import Backbutton from "../components/backbutton"
@@ -20,7 +19,6 @@ class BlogPostTemplate extends React.Component {
     
     return (
       <Layout location={this.props.location} title={siteTitle}>
-      <Cursor />
         <SEO
           title={post.frontmatter.title}
           description={post.excerpt || post.frontmatter.description }

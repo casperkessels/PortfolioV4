@@ -4,8 +4,8 @@ date: "2018"
 tags: ["UX Design, Research"]
 subtitle: "Reducing driver distraction"
 category: "work"
-thumbnail: ./thumbnail2.png
-banner: ./banner.png
+thumbnail: ./thumbnail2.jpg
+banner: ./banner.jpg
 status: "published"
 author: "Casper Kessels"
 ---

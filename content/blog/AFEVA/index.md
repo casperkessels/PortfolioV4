@@ -4,8 +4,8 @@ date: "2019"
 tags: ["UX Design, UX Research"]
 subtitle: "Digital administration for aircraft maintenance"
 category: "work"
-thumbnail: ./thumbnail1.png
-banner: ./banner.png
+thumbnail: ./thumbnail1.jpg
+banner: ./banner.jpg
 status: "published"
 author: "Casper Kessels"
 ---

@@ -5,6 +5,7 @@ tags: ["UX Design, UI Design"]
 subtitle: "test"
 category: "project"
 thumbnail: ./thumbnail2.png
+banner: ./thumbnail2.png
 status: "hidden"
 author: "Casper Kessels"
 ---
