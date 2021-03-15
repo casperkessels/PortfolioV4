@@ -102,7 +102,7 @@ export default ({ data }) => {
               <br />
               <br />
             </div>
-            <p className="pv4 mb0">I also always working on some side projects</p>
+            <p className="pv4 mb0">I am also always working on some side projects</p>
             <div className="verticalLine tc center mb0">
               <br />
               <br />
