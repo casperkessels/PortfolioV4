@@ -31,7 +31,7 @@ class Hello extends React.Component {
       });
   } else if (this.state.message === "Hallo.") {
       this.setState({
-        message: "Hej."
+        message: "Guten Tag."
       });
     } else{
       this.setState({

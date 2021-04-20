@@ -1,6 +1,7 @@
 ---
 title: "Air France - EVA"
 date: "2019"
+company: "Air France"
 tags: ["UX Design, UX Research"]
 subtitle: "Digital administration for aircraft maintenance"
 category: "work"

@@ -3,7 +3,6 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import "../styles/tachyons.css"
 import SEO from "../components/seo"
-import Cursor from "../components/cursor"
 import Backbutton from "../components/backbutton"
 
 

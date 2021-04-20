@@ -1,6 +1,7 @@
 ---
 title: "A New Concept for Usable Touch Interaction in Cars"
 date: "2019-07-01"
+company: "Side project"
 tags: ["UX Design, UI Design"]
 subtitle: "test"
 category: "project"

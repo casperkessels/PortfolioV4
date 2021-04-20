@@ -1,6 +1,7 @@
 ---
 title: "Reducing Driver Distraction"
 date: "2018"
+company: "Groupe Renault"
 tags: ["UX Design, Research"]
 subtitle: "Reducing driver distraction"
 category: "work"

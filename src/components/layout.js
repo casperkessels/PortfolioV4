@@ -51,7 +51,7 @@ export default ({ children }) => {
           </a>
         </div>
         <div className="dib-ns db fr-ns">
-          <p className="subtitlecolor mb2">Made in Paris</p>
+          <p className="subtitlecolor mb2">Made in Berlin</p>
         </div>
         <div className="db">
           <p className="f8 subtitlecolor">This website is made from scratch with React, Gatsby, and Tachyons. It is typeset in Inter.</p>
