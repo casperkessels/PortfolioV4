@@ -33,6 +33,11 @@ color: #fff;
 margin-bottom: 75px;
 }
 
+.videoClass {
+  width: 100%;
+  height: auto;
+}
+
 /*CAROUSEL*/
 .slick-prev {
   left: 25px!important;
@@ -151,7 +156,7 @@ figcaption{
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-html { line-height: 1.15; /* 1 */ -webkit-text-size-adjust: 100%; /* 2 */ }
+html {  /* 1 */ -webkit-text-size-adjust: 100%; /* 2 */ }
 /* Sections
    ========================================================================== */
 /**
@@ -162,7 +167,7 @@ body { margin: 0;}
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-h1 { font-size: 2em; margin: .67em 0; }
+/* h1 { font-size: 2em; margin: .67em 0; } */
 /* Grouping content
    ========================================================================== */
 /**

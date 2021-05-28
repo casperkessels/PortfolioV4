@@ -36,13 +36,35 @@ class BlogPostTemplate extends React.Component {
         <div className="w-50-l w-70-m center cf ph3 ph0-ns">
 
           <h1 className="f2-ns f3">{post.frontmatter.title}</h1>
-          <h3>{post.frontmatter.tags} - {post.frontmatter.date}</h3>
+          <p className="f4 fw1">{post.frontmatter.subtitle}</p>
+
+          <div className="bg_nord6 br2 flex flex-wrap pa3 mv3">
+            <div className="w-25-l w-50 ph2">
+              <h3 className="f6 mb1">Year</h3>
+              <p className="f7 mb0">{post.frontmatter.date}</p>
+            </div>
+            <div className="w-25-l w-50 ph2">
+              <h3 className="f6 mb1">Length</h3>
+              <p className="f7 mb0">{post.frontmatter.length}</p>
+            </div>
+            <div className="w-25-l w-50 ph2 mt3 mt0-l">
+              <h3 className="f6 mb1">Role</h3>
+              <p className="f7 mb0">{post.frontmatter.role}</p>
+            </div>
+            <div className="w-25-l w-50 ph2 mt3 mt0-l">
+              <h3 className="f6 mb1">Location</h3>
+              <p className="f7 mb0">{post.frontmatter.location}</p>
+            </div>
+          </div>
+
+
+          {/* <h3>{post.frontmatter.tags} - {post.frontmatter.date}</h3> */}
         </div>
 
 
         <article>
           <div className="ph3 ph0-ns mt3 w-50-l w-70-m center mb5">
-            <div className="w-100 lh-copy initial" dangerouslySetInnerHTML={{ __html: post.html }} />
+            <div className="w-100 initial" dangerouslySetInnerHTML={{ __html: post.html }} />
           </div>
         </article>
       </div>
@@ -70,6 +92,9 @@ export const query = graphql`
         tags
         title
         subtitle
+        length
+        role
+        location
         thumbnail {
         childImageSharp {
           fluid(maxWidth: 1200) {

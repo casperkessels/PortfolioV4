@@ -26,7 +26,6 @@ module.exports = {
               withWebp: true,
               showCaptions: true,
               quality: 75,
-              wrapperStyle: `margin: 7vw 0;`,
             },
           },
           `gatsby-remark-copy-linked-files`,
@@ -79,10 +78,10 @@ module.exports = {
     `gatsby-plugin-simple-analytics`,
     `gatsby-plugin-react-helmet`,
     {
-       resolve: `gatsby-plugin-typography`,
-       options: {
-         pathToConfigModule: `src/utils/typography`,
-       },
-     },
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography.js`
+      },
+    },
   ],
 }

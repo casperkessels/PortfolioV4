@@ -7,16 +7,12 @@ const typography = new Typography({
       name: "Inter",
       styles: ["300", "400", "600", "700" ,"800"],
     },
-    {
-      name: "Work Sans",
-      styles: ["300", "300i", "500", "500i", "700", "700i"],
-    },
   ],
   headerFontFamily: ["Inter", "sans-serif"],
   bodyFontFamily: ["Inter", "sans-serif"],
   baseFontSize: "20px",
-  baseLineHeight: 1.5,
-  scaleRatio: 1.4,
+  baseLineHeight: 1.666,
+  scaleRatio: 1.6,
   // See below for the full list of options.
 
 overrideStyles: ({ adjustFontSizeTo, scale, rhythm }, options) => ({

@@ -50,7 +50,7 @@ export default ({ data }) => {
 
 
         <div className="tc w-100 nord0 absolute bottom-0 left-0 ">
-          <p>Here is my latest work</p>
+          <p>Here is my latest professional work</p>
           <p><span role="img" aria-label="point down">👇</span></p>
           <div className="verticalLine tc center mb0">
             <br />
@@ -99,7 +99,7 @@ export default ({ data }) => {
               <br />
               <br />
             </div>
-            <p className="pv4 mb0">I am also always working on some side projects</p>
+            <p className="pv4 mb0">I am also always working on side projects</p>
             <div className="verticalLine tc center mb0">
               <br />
               <br />
@@ -166,7 +166,7 @@ export default ({ data }) => {
               <br />
               <br />
             </div>
-            <p className="pv4 mb0">I like to write about my stuff, here are my recent articles:</p>
+            <p className="pv4 mb0">I like to write about interesting topics, here are my recent articles:</p>
             <div className="verticalLine tc center mb0">
               <br />
               <br />
@@ -178,6 +178,10 @@ export default ({ data }) => {
 
           </div>
           <table class="nord3" cellspacing="0" cellpadding="0">
+          <tr class="">
+              <td class="pv1 pr1 bn">May, 2021</td>
+              <td class="pv1 pl1 bn"><a href="https://www.theturnsignalblog.com/blog/ehmi/" target="_blank" rel="noopener noreferrer" className="bb bw1 nord0 no-underline hover-nord9">The eHMI: How Autonomous Cars Will Communicate With the Outside World</a></td>
+            </tr>
             <tr class="">
               <td class="pv1 pr1 bn">March, 2021</td>
               <td class="pv1 pl1 bn"><a href="https://www.theturnsignalblog.com/blog/touch-screens/" target="_blank" rel="noopener noreferrer" className="bb bw1 nord0 no-underline hover-nord9">The Rise of Touch Screens in Cars Explained</a></td>

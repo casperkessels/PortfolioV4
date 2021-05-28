@@ -9,6 +9,9 @@ thumbnail: ./thumbnail1.jpg
 banner: ./banner.jpg
 status: "published"
 author: "Casper Kessels"
+length: "5 months"
+role: "Interaction Designer"
+location: "Amsterdam 🇳🇱"
 ---
 
 #Problem
