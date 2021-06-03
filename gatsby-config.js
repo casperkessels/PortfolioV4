@@ -70,6 +70,14 @@ module.exports = {
      domain: 'sa.casperkessels.com'
       },
     },
+    {
+      resolve: '@mkitio/gatsby-theme-password-protect',
+      options: {
+        partialMatching: true,
+        pagePaths: ['/Aircall'],
+        password: 'AH0jwRAF9t', // delete or `undefined` to disable password protection
+      }
+    },
     `gatsby-plugin-emotion`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

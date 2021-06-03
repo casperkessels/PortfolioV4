@@ -1,9 +1,10 @@
 ---
-title: "Air France - EVA"
+title: "EVA"
 date: "2019"
 company: "Air France"
 tags: ["UX Design, UX Research"]
-subtitle: "Digital administration for aircraft maintenance"
+subtitle: "Our team designed and developed a digital administration tool to support aircraft maintenance teams"
+intro: "Aircraft maintenance is a complex process that requires every object coming on or off the plane to be registered. This used to be done using paper and slow, outdated software. My team designed, tested, and developed an iPad app that improved employee hapiness and efficiency."
 category: "work"
 thumbnail: ./thumbnail1.jpg
 banner: ./banner.jpg

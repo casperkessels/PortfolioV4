@@ -3,7 +3,8 @@ title: "Reducing Driver Distraction"
 date: "2018"
 company: "Groupe Renault"
 tags: ["UX Design, Research"]
-subtitle: "Reducing driver distraction"
+subtitle: "I created a concept using gesture interaction that reduces driver distraction"
+intro: "During my internship at Groupe Renault I researched the following question: is it possible to create a modern interaction model that allows the flexibility of touch screens but does not cause driver distraction?"
 category: "work"
 thumbnail: ./thumbnail.jpg
 banner: ./banner.jpg
@@ -14,12 +15,8 @@ role: "UX Design internship"
 location: "Paris 🇫🇷"
 ---
 
-Since the arrival of the first iPhone, designers at car companies have tried to copy its minimalist look and interface in the interiors of cars. With every new generation, more physical buttons and knobs get ditched in favor of giant touch screens. But while iOS is specially designed for scenarios where people use smartphones, the touch screens in cars just seem to copy the design instead of appropriating it to driving scenarios. This makes these touch screens too complex to operate while driving. As a result, distraction-related accidents are increasing every year.
-So I asked myself the question: is it possible to create a modern interaction model that allows the flexibility of touch screens but does not cause driver distraction?
 
 #Studying the Interactions
-When thinking about how to reduce driver distraction, I think it is often approached from the wrong side. When an interface has a lot of features and is difficult to understand, the answer is not to make the interface easier, but to limit the number of features. This leads to the following question: should drivers do whatever they want in the infotainment system, or should designers limit what people can do in cars for the sake of safety? To me, it is obvious that drivers should be limited by design. Though it is not just as simple as removing all the features from a car. The car industry is insanely competitive, so consumers will still buy the car with the coolest features. So how can we remove a lot of distractions from the cockpit, while still offering a product that consumers want?
-
 If we look at the kind of interactions drivers have with these devices we can categorize them as the following: basic, and complex.
 Basic interactions are those like changing the temperature, the volume, checking the fuel, etc. They don’t cause a lot of cognitive load, they are performed often, they should be easily available at all times, and they are required while driving.
 Complex interactions are those like changing the settings of the car, planning a route, finding a gas station, etc. They can cause a lot of cognitive load, they take a long time to complete, and no matter how good the design of the interface is, they will always be distracting.

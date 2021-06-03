@@ -33,10 +33,10 @@ class BlogPostTemplate extends React.Component {
         <Backbutton />
         </div>
 
-        <div className="w-50-l w-70-m center cf ph3 ph0-ns">
+        <div className="w-60-l w-70-m center cf ph3 ">
 
-          <h1 className="f2-ns f3">{post.frontmatter.title}</h1>
-          <p className="f4 fw1">{post.frontmatter.subtitle}</p>
+          <h1 className="f2-ns f3 mt1">{post.frontmatter.title}</h1>
+          <p className="f4 fw1">{post.frontmatter.intro}</p>
 
           <div className="bg_nord6 br2 flex flex-wrap pa3 mv3">
             <div className="w-25-l w-50 ph2">
@@ -63,7 +63,7 @@ class BlogPostTemplate extends React.Component {
 
 
         <article>
-          <div className="ph3 ph0-ns mt3 w-50-l w-70-m center mb5">
+          <div className="ph3 mt3 w-60-l w-70-m center mb5">
             <div className="w-100 initial" dangerouslySetInnerHTML={{ __html: post.html }} />
           </div>
         </article>
@@ -91,7 +91,7 @@ export const query = graphql`
         date
         tags
         title
-        subtitle
+        intro
         length
         role
         location
